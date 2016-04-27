@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Central eMoflon update site">
+      This is the central update site of eMoflon.
+   </description>
+   <feature url="features/org.moflon.ide.feature_1.0.0.201505131659.jar" id="org.moflon.ide.feature" version="1.0.0.201505131659">
+      <category name="org.moflon.ide"/>
+   </feature>
+   <feature url="features/org.moflon.sdm.codegen2.feature_1.0.0.201505131659.jar" id="org.moflon.sdm.codegen2.feature" version="1.0.0.201505131659">
+      <category name="org.moflon.ide"/>
+   </feature>
+   <category-def name="org.moflon.ide" label="eMoflon"/>
+</site>
