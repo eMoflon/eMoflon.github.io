@@ -1,0 +1,51 @@
+body {
+    background: #CCC;
+}
+
+#body {
+    font-family: sans-serif;
+    width: 700px;
+    background: #FFF;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contributor-image {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 60px;
+}
+
+.float-barrier {
+    clear: both;
+}
+
+
+/* Thanks to electrophanteau@Stackoverflow https://stackoverflow.com/questions/15557627/heading-with-horizontal-line-on-either-side/23155413#23155413 */
+/* BEGIN OF headlines with lines */
+/* Usage: <h2 class="decorated"><span>TEXT</span></h2>*/
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid;
+    width: 592px; /* half of limiter */
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+/* END OF headlines with lines */
