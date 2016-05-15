@@ -5,6 +5,7 @@
 <head>
 
 <script type="text/javascript" src="http://livejs.com/live.js"></script>
+<script type="text/javascript" src="assets/js/jquery-1.12.3.js"></script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -17,15 +18,10 @@
 </head>
 <body>
 <div id="body">
+
 <div id="header"></div>
-<div id="navigation">
-<div class="nav-menu-entry"><a href="./index.html">Home</a></div>
-<div class="nav-menu-entry"><a href="./inaction.html">In Action</a></div>
-<div class="nav-menu-entry"><a href="./installation.html">Download</a></div>
-<div class="nav-menu-entry"><a href="./documentation.html">Documentation</a></div>
-<div class="nav-menu-entry"><a href="./impressum.html">Impressum</a></div>
-</div>
-<div class="float-barrier"/>
+<script>$("#header").load("navigation.inc.html");</script>
+
 <div id="content">
 <!-- ENF OF common header -->
 
@@ -111,20 +107,9 @@ A Survey of Triple Graph Grammar Tools
 </li>
 </ul>
 
-<!-- BEGIN OF Common footer -->
-<div id="footer">
-    <span id="copy">&#169; 2011-2016 emoflon.org</span> 
-    &mdash;
-   
-<a href="http://www.es.tu-darmstadt.de">Real-Time Systems Lab at TU Darmstadt</a>
-    &mdash;
-   
-<a href="http://s-lab.uni-paderborn.de/">Software Lab at Paderborn University</a>
-    &mdash;
-   
-<a href="/impressum.html" >Disclaimer/Impressum</a>
-</div> 
-<!-- END OF Common footer -->
+
+<div id="footer"></footer>
+<script>$("#footer").load("footer.inc.html");</script>
 
 
 </div>
