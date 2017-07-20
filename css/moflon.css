@@ -1,0 +1,22 @@
+/*
+ * Thanks to https://stackoverflow.com/a/2939979
+ */
+.developer-logo-outer {
+  height: 200px;
+  vertical-align: middle;
+  display: table; 
+  overflow: hidden;
+}
+
+.developer-logo-inner {
+  display: table-cell; 
+  vertical-align: middle;
+}
+
+header {
+  background: #436897;
+}
+
+section {
+  padding: 0px 50px 0px 25px;
+}
