@@ -6,7 +6,7 @@
 /*
  * Use original Bootstrap color for links
  */
-a {
+.alert-success a {
   color: #337ab7;
 }
 
