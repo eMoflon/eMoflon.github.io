@@ -4,19 +4,19 @@
    <description name="eMoflon central update site" url="https://emoflon.github.io/documentation.html/">
       This is the central update site of eMoflon.
    </description>
-   <feature url="features/org.moflon.ide.feature_3.0.0.201802070840.jar" id="org.moflon.ide.feature" version="3.0.0.201802070840">
+   <feature url="features/org.moflon.ide.feature_3.0.0.qualifier.jar" id="org.moflon.ide.feature" version="3.0.0.qualifier">
       <category name="org.moflon.tool.main"/>
    </feature>
-   <feature url="features/org.moflon.ide.visualization.feature_3.0.0.201802070840.jar" id="org.moflon.ide.visualization.feature" version="3.0.0.201802070840">
+   <feature url="features/org.moflon.ide.visualization.feature_3.0.0.qualifier.jar" id="org.moflon.ide.visualization.feature" version="3.0.0.qualifier">
       <category name="org.moflon.tool.main"/>
    </feature>
-   <feature url="features/org.moflon.tgg.mosl.feature_3.0.0.201802070840.jar" id="org.moflon.tgg.mosl.feature" version="3.0.0.201802070840">
+   <feature url="features/org.moflon.tgg.mosl.feature_3.0.0.qualifier.jar" id="org.moflon.tgg.mosl.feature" version="3.0.0.qualifier">
       <category name="org.moflon.tool.main"/>
    </feature>
-   <feature url="features/org.moflon.gt.mosl.pattern.language.feature_1.0.0.201802070840.jar" id="org.moflon.gt.mosl.pattern.language.feature" version="1.0.0.201802070840">
+   <feature url="features/org.moflon.gt.mosl.pattern.language.feature_1.0.0.qualifier.jar" id="org.moflon.gt.mosl.pattern.language.feature" version="1.0.0.qualifier">
       <category name="org.moflon.tool.experimental"/>
    </feature>
-   <feature url="features/org.moflon.gt.mosl.controlflow.language.feature_1.0.0.201802070840.jar" id="org.moflon.gt.mosl.controlflow.language.feature" version="1.0.0.201802070840">
+   <feature url="features/org.moflon.gt.mosl.controlflow.language.feature_1.0.0.qualifier.jar" id="org.moflon.gt.mosl.controlflow.language.feature" version="1.0.0.qualifier">
       <category name="org.moflon.tool.experimental"/>
    </feature>
    <feature url="features/org.gervarro.eclipse.util.feature_2.0.0.v20161231-0040.jar" id="org.gervarro.eclipse.util.feature" version="2.0.0.v20161231-0040">
