@@ -17,3 +17,28 @@ header {
 section {
   padding: 0px 50px 0px 25px;
 }
+
+.bg-emoflonCore {
+  background: #46896d;
+  color: white
+}
+
+.bg-emoflonTie {
+  background: #46896d;
+  color: white
+}
+
+.bg-emoflonIbex {
+  background: #46896d;
+  color: white
+}
+
+.bg-development {
+  background: #333333;
+  color: white
+}
+
+.bg-impressum {
+  background: #AAAAAA;
+  color: black
+}

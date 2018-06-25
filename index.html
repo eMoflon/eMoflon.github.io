@@ -49,7 +49,7 @@
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
         </button>
-        <a class="navbar-brand page-scroll" href="#page-top">eMoflon &ndash; A tool for building tools. </a>
+        <a class="navbar-brand page-scroll" href="#page-top">eMoflon</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -57,6 +57,9 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a class="page-scroll" href="#gettingstarted">Getting started</a></li>
           <li><a class="page-scroll" href="#action">In action</a></li>
+          <li><a class="page-scroll" href="#emoflonCore">eMoflon::Core</a></li>
+          <li><a class="page-scroll" href="#emoflonTie">eMoflon::TIE</a></li>
+          <li><a class="page-scroll" href="#emoflonIbex">eMoflon::IBeX</a></li>
           <li><a class="page-scroll" href="#development">Development</a></li>
           <li><a class="page-scroll" href="#impressum">Impressum</a></li>
         </ul>
@@ -73,13 +76,20 @@
           <div class="header-content">
             <div class="header-content-inner">
               <h2>
-              <strong>eMoflon</strong> is a tool for building tools.
+              <strong>eMoflon</strong> is a toolsuite for building tools.
               It allows you to model software systems using a visual or a textual syntax, afterwards generating EMF-compliant Java code from your model.
+              The eMoflon toolsuite consists of three tools.
               </h2>
-              <a href="#gettingstarted" class="btn btn-outline btn-xl page-scroll">Getting started</a>
-              <br/>
-              <br/>
               <a href="#action" class="btn btn-outline btn-xl page-scroll">eMoflon in action</a>
+              <br/>
+              <br/>
+              <a href="#emoflonCore" class="btn btn-outline btn-xl page-scroll">eMoflon::Core</a>
+              <br/>
+              <br/>
+              <a href="#emoflonTie" class="btn btn-outline btn-xl page-scroll">eMoflon::TIE</a>
+              <br/>
+              <br/>
+              <a href="#emoflonIbex" class="btn btn-outline btn-xl page-scroll">eMoflon::IBeX</a>
               <br/>
               <br/>
               <a href="#development" class="btn btn-outline btn-xl page-scroll">eMoflon development</a>
@@ -95,70 +105,13 @@
     </div>
   </header>
 
-  <section id="gettingstarted" class="bg-profile text-left">
-    <div class="container">
-      <div class="row">
-       <div class="col-md-8 col-md-offset-2">
-          <h2>Getting started with eMoflon</h2>
-          <p>eMoflon is currently composed of two parts:
-          the eMoflon IDE Eclipse feature and
-          the eMoflon Enterprise Architect addin (only required for visual syntax support).
-          </p>
-          <p>
-          If you are completely new to eMoflon, we recommend working (at least) through Chapter&nbsp;1 of <a href="https://github.com/eMoflon/emoflon-docu/releases">our handbook</a> first (Follow the <em>eMoflonHandbook.pdf</em> link.)!
-          Additionally, the <a href="https://github.com/eMoflon/emoflon-docu/wiki">eMoflon GitHub Wiki</a> contains an <a href="https://github.com/eMoflon/emoflon-docu/wiki/eMoflon-FAQ">FAQ site</a> for specific questions.
-          In the <a href="https://groups.google.com/forum/#!forum/emoflon">eMoflon Google group</a>, we spread exciting eMoflon-related news (e.g., new releases).
-          The file <a href="https://emoflon.github.io/eclipse-plugin/beta/updatesite/changelog.txt">changelog.txt</a> contains an overview of the changes introduced by each eMoflon version.
-
-          <h3>Downloads</h3>
-
-          <p>
-          If you encounter problems, please consult our <b><a href="https://github.com/eMoflon/emoflon-tool/issues">issue tracker</a></b> or drop us a mail at <b>contact(at)emoflon.org</b>. Thanks!
-          </p>
-          <p>
-          A well-known problem is that the dependency from eMoflon to PlantUML is not resolved automatically.
-          Please consult <a href="https://groups.google.com/forum/#!topic/emoflon/nziorCi0y6M">this post</a> to solve the issue manually.
-          </p>
-          <p>
-          The current version of eMoflon is <a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_3.2.0">eMoflon 3.2.0</a><a></a></b>.
-          Use the following update-site URL for installing eMoflon: <a href="https://emoflon.org/eclipse-plugin/beta/updatesite/">https://emoflon.org/eclipse-plugin/beta/updatesite/</a>
-          <div class="alert alert-success">
-          <strong>Note:</strong>
-          When you first try to install eMoflon, Eclipse may complain about missing dependencies.
-          The reason is that eMoflon refers to additional update sites for its external dependencies.
-          To fix this issue, press <em>Manage...</em> in the <em>Install New Software...</em> dialog and enable the following update sites:
-          <ul>
-          <li><a href="https://raw.githubusercontent.com/eMoflon/emoflon-core-updatesite/master/stable/updatesite/">https://raw.githubusercontent.com/eMoflon/emoflon-core-updatesite/master/stable/updatesite/</a></li>
-          <!-- No HTTPS available -->
-          <li><a href="http://files.idi.ntnu.no/publish/plantuml/repository/">http://files.idi.ntnu.no/publish/plantuml/repository/</a></li>
-          </ul>
-          Afterwards, proceed with the intallation as usual.
-          </div>
-          </p>
-          <h3>Fingerprints</h2>
-          The eMoflon Eclipse plugin is signed.
-          The following fingerprints allow you to verify the validity of the certificate.
-          <pre>MD5:    F1:E9:FF:4E:7B:D7:6D:90:9F:4D:A8:24:34:66:46:24
-SHA1:   F7:23:92:9D:9A:92:86:7C:9A:16:04:8C:2E:E7:04:1D:AE:BB:5A:B6
-SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:71:55:72:35:24:A9:3A:39</pre>
-
-          <h3>Need a previous version?</h3>
-          <p>
-          The following link guides you to previous versions of eMoflon.<br/>
-          <a href="#previousversions" class="btn btn-outline btn-xl page-scroll">Previous Versions</a>
-          </p>
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section id="action" class="bg-primary text-left">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h2>eMoflon in Action</h2>
+          In this section, we want to give you an impression of scenarios in which eMoflon may be applied.
+          If you want to experiment with eMoflon yourself, proceed to <a href="#emoflonCore">eMoflon::Core</a>, <a href="#emoflonTie">eMoflon::TIE</a>, or <a href="#emoflonIbex">eMoflon::IBeX</a>.
           <h3>Screencasts & Virtual Machines</h3>
           <p>You may have a look at <a href="https://www.youtube.com/watch?v=BKdw67zrjOw">this screencast</a> or at one of the following virtual machines for trying out eMoflon:
           <ul>
@@ -268,8 +221,99 @@ SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:
       </div>
     </div>
   </section>
+  
+  <section id="emoflonCore" class="bg-emoflonCore text-left">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-8 col-md-offset-2">
+          <h2>eMoflon::Core</h2>
+          <h3>Summary</h3>
+          <h3>Getting started</h3>
+          <p>
+          <a href="https://paper.dropbox.com/doc/Meta-Modelling-with-eMoflonIBeX-zyOqELGZ0X9jL85TAs7pf">eMoflon::Core Handbook</a>
+          </p>
+          <h3>Getting help</h3>
+          <p>
+          If you encounter problems, please consult our <b><a href="https://github.com/eMoflon/emoflon-core/issues">issue tracker</a></b> or drop us a mail at <b>contact(at)emoflon.org</b>. Thanks!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="emoflonTie" class="bg-emoflonTie text-left">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-8 col-md-offset-2">
+          <h2>eMoflon::TIE &ndash; Tool Integration Environment</h2>
+          <h3>Summary</h3>
+          <p>eMoflon::TIE is currently composed of two parts:
+          the eMoflon IDE Eclipse feature and
+          the eMoflon Enterprise Architect addin (only required for visual syntax support).
+          </p>
+          <p>
+          If you are completely new to eMoflon, we recommend working (at least) through Chapter&nbsp;1 of <a href="https://github.com/eMoflon/emoflon-docu/releases">our handbook</a> first (Follow the <em>eMoflonHandbook.pdf</em> link.)!
+          Additionally, the <a href="https://github.com/eMoflon/emoflon-docu/wiki">eMoflon::TIE GitHub Wiki</a> contains an <a href="https://github.com/eMoflon/emoflon-docu/wiki/eMoflon-FAQ">FAQ site</a> for specific questions.
+          In the <a href="https://groups.google.com/forum/#!forum/emoflon">eMoflon Google group</a>, we spread exciting eMoflon-related news (e.g., new releases).
+          The file <a href="https://emoflon.github.io/eclipse-plugin/beta/updatesite/changelog.txt">changelog.txt</a> contains an overview of the changes introduced by each eMoflon version.
 
-  <section id="development" class="bg-profile text-left">
+          <h3>Getting help</h3>
+          <p>
+          If you encounter problems, please consult our <b><a href="https://github.com/eMoflon/emoflon-tool/issues">issue tracker</a></b> or drop us a mail at <b>contact(at)emoflon.org</b>. Thanks!
+          </p>
+          
+          <h3>Getting started</h3>
+
+          <p>
+          A well-known problem is that the dependency from eMoflon::TIE to PlantUML is not resolved automatically.
+          Please consult <a href="https://groups.google.com/forum/#!topic/emoflon/nziorCi0y6M">this post</a> to solve the issue manually.
+          </p>
+          <p>
+          The current version of eMoflon::TIE is <a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_3.2.0">eMoflon 3.2.0</a><a></a></b>.
+          Use the following update-site URL for installing eMoflon::TIE: <a href="https://emoflon.org/eclipse-plugin/beta/updatesite/">https://emoflon.org/eclipse-plugin/beta/updatesite/</a>
+          <div class="alert alert-success">
+          <strong>Note:</strong>
+          When you first try to install eMoflon::TIE, Eclipse may complain about missing dependencies.
+          The reason is that eMoflon refers to additional update sites for its external dependencies.
+          To fix this issue, press <em>Manage...</em> in the <em>Install New Software...</em> dialog and enable the following update sites:
+          <ul>
+          <li><a href="https://raw.githubusercontent.com/eMoflon/emoflon-core-updatesite/master/stable/updatesite/">https://raw.githubusercontent.com/eMoflon/emoflon-core-updatesite/master/stable/updatesite/</a></li>
+          <!-- No HTTPS available -->
+          <li><a href="http://files.idi.ntnu.no/publish/plantuml/repository/">http://files.idi.ntnu.no/publish/plantuml/repository/</a></li>
+          </ul>
+          Afterwards, proceed with the intallation as usual.
+          </div>
+          </p>
+          <h3>Fingerprints</h2>
+          The eMoflon Eclipse plugin is signed.
+          The following fingerprints allow you to verify the validity of the certificate.
+          <pre>MD5:    F1:E9:FF:4E:7B:D7:6D:90:9F:4D:A8:24:34:66:46:24
+SHA1:   F7:23:92:9D:9A:92:86:7C:9A:16:04:8C:2E:E7:04:1D:AE:BB:5A:B6
+SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:71:55:72:35:24:A9:3A:39</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="emoflonIbex" class="bg-emoflonIbex text-left">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-8 col-md-offset-2">
+          <h2>eMoflon::IBeX - </h2>
+          <h3>Summary</h3>
+          <h3>Getting started</h3>
+          <p>
+          </p>
+          <h3>Getting help</h3>
+          <p>
+          If you encounter problems, please consult our <b><a href="https://github.com/eMoflon/emoflon-ibex-democles/issues">issue tracker</a></b> or drop us a mail at <b>contact(at)emoflon.org</b>. Thanks!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="development" class="bg-development text-left">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -277,7 +321,7 @@ SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:
           <h3>Source Code</h3>
           <p>
           eMoflon is open source (dually licensed under GPL 3.0 and EPL 1.0).
-          The source code of eMoflon is available at <a href="https://github.com/emoflon/emoflon-tool">GitHub</a>.
+          The source code of eMoflon is available at GitHub: <a href="https://github.com/emoflon/emoflon-core">eMoflon::Core</a>, <a href="https://github.com/emoflon/emoflon-tool">eMoflon::TIE</a>, <a href="https://github.com/eMoflon/emoflon-ibex-democles">eMoflon::IBeX</a>.
           </p>
           <h3>Development Team</h3>
           <p>
@@ -286,19 +330,18 @@ SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:
           <p>
           Current Developers
           <ul>
-          <li><a href="https://cs.uni-paderborn.de/dbis/personal/arbeitsgruppe/mitarbeiter/anthony-anjorin/visitenkarte/" target="_blank" class="external-link-new-window">Anthony Anjorin</a> (UPB)</li>
-          <li><a href="https://www.es.tu-darmstadt.de/es/team/roland-kluge/" target="_blank" class="external-link-new-window">Roland Kluge</a> (TUDA)</li>
-          <li><a href="https://www.es.tu-darmstadt.de/es/team/geza-kulcsar/" target="_blank" class="external-link-new-window">Géza Kulcsar</a> (TUDA) </li>
-          <li><a href="https://www.es.tu-darmstadt.de/es/team/erhan-leblebici/" target="_blank" class="external-link-new-window">Erhan Leblebici</a> (TUDA)</li>
-          <li><a href="https://www.es.tu-darmstadt.de/es/team/lars-fritsche/" target="_blank" class="external-link-new-window">Lars Fritsche</a> (TUDA)</li>
-          <li><a href="https://www.es.tu-darmstadt.de/es/team/gergely-varro/" target="_blank" class="external-link-new-window">Gergely Varró</a> (TUDA)</li>
+          <li><a href="https://cs.uni-paderborn.de/dbis/personal/arbeitsgruppe/mitarbeiter/anthony-anjorin/visitenkarte/" target="_blank" class="external-link-new-window">Anthony Anjorin</a> (UPB, eMoflon::IBeX/Core)</li>
+          <li><a href="https://www.es.tu-darmstadt.de/es/team/roland-kluge/" target="_blank" class="external-link-new-window">Roland Kluge</a> (TUDA, eMoflon::TIE/Core)</li>
+          <li><a href="https://www.es.tu-darmstadt.de/es/team/geza-kulcsar/" target="_blank" class="external-link-new-window">Géza Kulcsar</a> (TUDA, eMoflon::TIE) </li>
+          <li><a href="https://www.es.tu-darmstadt.de/es/team/lars-fritsche/" target="_blank" class="external-link-new-window">Lars Fritsche</a> (TUDA, eMoflon::IBeX/TIE)</li>
+          <li><a href="https://www.es.tu-darmstadt.de/es/team/gergely-varro/" target="_blank" class="external-link-new-window">Gergely Varró</a> (TUDA, eMoflon::IBeX)</li>
           </ul>
           </p>
           <p>
           Former Developers
           The following people have contributed to eMoflon or its Java JMI-based predecessor MOFLON.
           <ul>
-          <li><em>Scientists:</em> Carsten Amelunxen, Frederik Deckwerth, Felix Klar, Alexander Königs, Marius Lauder, Lars Patzina, Sven Patzina, Tobias Rötschke, Ingo Weisemöller, Martin Wieber</li>
+          <li><em>Scientists:</em> Carsten Amelunxen, Frederik Deckwerth, Felix Klar, Alexander Königs, Marius Lauder, Erhan Leblebici, Lars Patzina, Sven Patzina, Tobias Rötschke, Ingo Weisemöller, Martin Wieber</li>
           <li><em>Student developers:</em> Sascha Zander, Anne-Sophie Ettl, Thomas Kovac Alexander Schleich, Nico Wombacher, Lars Kliegel, Lukas Neumann, and many more.</li>
           </ul>
           </p>
@@ -327,115 +370,46 @@ SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:
     </div>
   </section>
 
+  
 
-  <section id="previousversions" class="bg-primary text-left">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h2>Version history of eMoflon</h2>
-          <p>
-          The following list contains all available versions of eMoflon:
-          <ul>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_3.2.0">eMoflon 3.2.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_3.1.0">eMoflon 3.1.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_3.0.0">eMoflon 3.0.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.32.0">eMoflon 2.32.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.31.0">eMoflon 2.31.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.30.0">eMoflon 2.30.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.29.0">eMoflon 2.29.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.28.0">eMoflon 2.28.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.27.0">eMoflon 2.27.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.26.0">eMoflon 2.26.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.25.0">eMoflon 2.25.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.24.0">eMoflon 2.24.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.23.0">eMoflon 2.23.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.22.0">eMoflon 2.22.0</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.21.0">eMoflon 2.21.0 (<em>Internal release, may be unstable</em>)</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.20.0">eMoflon 2.20.0 (<em>Internal release, may be unstable</em>)</a></li>
-          <li><a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_2.19.0">eMoflon 2.19.0 (<em>Internal release, may be unstable</em>)</a></li>
-          <li> eMoflon 2.18.0 (<em>Internal release, may be unstable</em>)<a href="./eclipse-plugin/emoflon_2.18.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.18.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.17.0 (<em>Internal release, may be unstable</em>)<a href="./eclipse-plugin/emoflon_2.17.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.17.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.16.0 <a href="./eclipse-plugin/emoflon_2.16.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.16.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.15.0 <a href="./eclipse-plugin/emoflon_2.15.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.15.0/update-site2/ea-ecore-addin.zip">EA addin</a> <a href="./eclipse-plugin/emoflon_2.15.0/handbook/handbook_eMoflon_2.15.0.pdf">Handbook (all parts)</a>
-          </li><li> eMoflon 2.14.0 <a href="./eclipse-plugin/emoflon_2.14.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.14.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.13.0 <a href="./eclipse-plugin/emoflon_2.13.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.13.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.12.0 <a href="./eclipse-plugin/emoflon_2.12.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.12.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.11.0 <a href="./eclipse-plugin/emoflon_2.11.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.11.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.10.0 <a href="./eclipse-plugin/emoflon_2.10.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.10.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.9.0 <a href="./eclipse-plugin/emoflon_2.9.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.9.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.8.0 <a href="./eclipse-plugin/emoflon_2.8.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.8.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.7.0 <a href="./eclipse-plugin/emoflon_2.7.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.7.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.6.0 <a href="./eclipse-plugin/emoflon_2.6.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.6.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.5.0 <a href="./eclipse-plugin/emoflon_2.5.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.5.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.4.0 <a href="./eclipse-plugin/emoflon_2.4.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.4.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.3.0 <a href="./eclipse-plugin/emoflon_2.3.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.3.0/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 2.2.1 <a href="./eclipse-plugin/emoflon_2.2.1/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.2.1/update-site2/ea-ecore-addin.zip">EA addin</a> <a href="./eclipse-plugin/emoflon_2.0.0/handbook/handbook_eMoflon_2.2.1.pdf">Handbook (all parts)</a>
-          </li><li> eMoflon 2.2.0 <a href="./eclipse-plugin/emoflon_2.2.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.2.0/update-site2/ea-ecore-addin.zip">EA addin</a> <a href="./eclipse-plugin/emoflon_2.0.0/handbook/handbook_eMoflon_2.0.0.pdf">Handbook (all parts)</a>
-          </li><li> eMoflon 2.1.0 <a href="./eclipse-plugin/emoflon_2.1.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.1.0/update-site2/ea-ecore-addin.zip">EA addin</a> <a href="./eclipse-plugin/emoflon_2.0.0/handbook/handbook_eMoflon_2.0.0.pdf">Handbook (all parts)</a>
-          <!-- 2.0.0 is known not to work properly -->
-          <!--<li> eMoflon 2.0.0 <a href="./eclipse-plugin/emoflon_2.0.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_2.0.0/update-site2/ea-ecore-addin.zip">EA addin</a>-->
-          </li><li> eMoflon 1.7.18 <a href="./eclipse-plugin/emoflon_1.7.18/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.18/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.17 <a href="./eclipse-plugin/emoflon_1.7.17/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.17/update-site2/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.16 <a href="./eclipse-plugin/emoflon_1.7.16/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.16/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.15 <a href="./eclipse-plugin/emoflon_1.7.15/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.15/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.14 <a href="./eclipse-plugin/emoflon_1.7.14/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.14/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.13 <a href="./eclipse-plugin/emoflon_1.7.13/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.13/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.12 <a href="./eclipse-plugin/emoflon_1.7.12/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.12/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.11 <a href="./eclipse-plugin/emoflon_1.7.11/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.11/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.10 <a href="./eclipse-plugin/emoflon_1.7.10/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.10/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.9 <a href="./eclipse-plugin/emoflon_1.7.9/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.9/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.8 <a href="./eclipse-plugin/emoflon_1.7.8/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.8/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.7 <a href="./eclipse-plugin/emoflon_1.7.7/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.7/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.6 <a href="./eclipse-plugin/emoflon_1.7.6/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.6/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.5 <a href="./eclipse-plugin/emoflon_1.7.5/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.5/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.4 <a href="./eclipse-plugin/emoflon_1.7.4/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.4/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a>
-          </li><li> eMoflon 1.7.0 <a href="./eclipse-plugin/emoflon_1.7.0/update-site2">Eclipse update site</a> <a href="./eclipse-plugin/emoflon_1.7.0/ea-ecore-addin/ea-ecore-addin.zip">EA addin</a> <a href="./eclipse-plugin/emoflon_1.7.0/handbook/handbook_eMoflon_1.7.0.pdf">Handbook (all parts, applies to eMoflon 1.7.*)</a>
-          </li></ul>
-          </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="impressum" class="bg-profile text-left">
+  <section id="impressum" class="bg-impressum text-left">
     <div class="container">
       <div class="row">
        <div class="col-md-8 col-md-offset-2">
-        <h3>Impressum und Datenschutzerklärung (German)</h3>
-        <p>eMoflon ist ein Forschungsprojekt der</p>
-        <blockquote style="margin-bottom:0;margin-top:0;">
-        <p>
-        <b>TU Darmstadt</b><br/>
-        <b>Fachgebiet Echtzeitsysteme</b><br/>
-        Magdalenenstr. 4<br/>
-        64289 Darmstadt<br/>
-        Germany<br/>
-        </p>
-        <p>
-        Telefon: +49 6151 16-22350<br> 
-        Telefax: +49 6151 16-22352<br>
-        E-Mail: kontakt(at)es.tu-darmstadt.de<br>
-        Internet: <a href="https://www.es.tu-darmstadt.de/" target="_blank">www.es.tu-darmstadt.de</a>
-        </p>
-        </blockquote>
-        <p> 
-        Für das Fachgebiet Echtzeitsysteme gilt das <a href="https://www.tu-darmstadt.de/impressum/" target="_blank" class="external-link-new-window">Impressum der TU Darmstadt</a>
-        Vertretungsberechtigter des FG Echtzeitsysteme ist Prof. Dr. rer. nat. Andy Schürr.
-        </p>
+          <h3>Impressum und Datenschutzerklärung (German)</h3>
+          <p>eMoflon ist ein Forschungsprojekt der</p>
+          <blockquote style="margin-bottom:0;margin-top:0;">
+          <p>
+          <b>TU Darmstadt</b><br/>
+          <b>Fachgebiet Echtzeitsysteme</b><br/>
+          Magdalenenstr. 4<br/>
+          64289 Darmstadt<br/>
+          Germany<br/>
+          </p>
+          <p>
+          Telefon: +49 6151 16-22350<br> 
+          Telefax: +49 6151 16-22352<br>
+          E-Mail: kontakt(at)es.tu-darmstadt.de<br>
+          Internet: <a href="https://www.es.tu-darmstadt.de/" target="_blank">www.es.tu-darmstadt.de</a>
+          </p>
+          </blockquote>
+          <p> 
+          Für das Fachgebiet Echtzeitsysteme gilt das <a href="https://www.tu-darmstadt.de/impressum/" target="_blank" class="external-link-new-window">Impressum der TU Darmstadt</a>
+          Vertretungsberechtigter des FG Echtzeitsysteme ist Prof. Dr. rer. nat. Andy Schürr.
+          </p>
 
-       <h4>Haftungsausschluss</h4>
-       <p>
-       Trotz sorgfältiger inhaltlicher Kontrolle uebernehmen wir keine Haftung für die Inhalte externer Links.
-       Fuer den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
-       </p>
-       <h4>Datenschutzerklärung</h4>
-       <p>
-       Diese Webseite wird über GitHub Pages gehostet.
-       Neben den Daten, die laut <a href="https://help.github.com/articles/github-privacy-statement/" target="_blank">GithHub Privacy Policy</a> verarbeitet werden, erheben wir keinerlei weitere Daten der Besucher unserer Webseite.
-       Verantwortlich für den Datenschutz ist: TU Darmstadt, Fachgebiet Echtzeitsysteme.
-       Bei Fragen zum Datenschutz wenden Sie sich bitte an kontakt(at)es.tu-darmstadt.de.
-       </p>
+          <h4>Haftungsausschluss</h4>
+          <p>
+          Trotz sorgfältiger inhaltlicher Kontrolle uebernehmen wir keine Haftung für die Inhalte externer Links.
+          Fuer den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+          </p>
+          <h4>Datenschutzerklärung</h4>
+          <p>
+          Diese Webseite wird über GitHub Pages gehostet.
+          Neben den Daten, die laut <a href="https://help.github.com/articles/github-privacy-statement/" target="_blank">GithHub Privacy Policy</a> verarbeitet werden, erheben wir keinerlei weitere Daten der Besucher unserer Webseite.
+          Verantwortlich für den Datenschutz ist: TU Darmstadt, Fachgebiet Echtzeitsysteme.
+          Bei Fragen zum Datenschutz wenden Sie sich bitte an kontakt(at)es.tu-darmstadt.de.
+         </p>
        </div>
       </div>
     </div>
