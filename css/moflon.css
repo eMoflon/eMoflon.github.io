@@ -19,17 +19,17 @@ section {
 }
 
 .bg-emoflonCore {
-  background: #46896d;
+  background: #00994c;
   color: white
 }
 
 .bg-emoflonTie {
-  background: #46896d;
+  background: #007f00;
   color: white
 }
 
 .bg-emoflonIbex {
-  background: #46896d;
+  background: #006600;
   color: white
 }
 
@@ -38,7 +38,37 @@ section {
   color: white
 }
 
+.bg-toolsuite {
+  background: #AAAAAA;
+  color: black
+}
+
 .bg-impressum {
   background: #AAAAAA;
   color: black
+}
+
+/* Taken from https://github.com/BlackrockDigital/startbootstrap-landing-page */
+.emoflonToolsuiteSection {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.emoflonToolsuiteSection .testimonial-item {
+  max-width: 18rem;
+}
+
+.emoflonToolsuiteSection .testimonial-item img {
+  max-width: 12rem;
+  //box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+h5 {
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
 }
