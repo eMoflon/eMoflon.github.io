@@ -72,10 +72,13 @@
           <div class="header-content">
             <div class="header-content-inner">
               <h3>
-                <strong>eMoflon</strong> is a tool suite for Model-Driven Engineering (MDE) that provides a range of visual and formal languages for (meta)modelling and model management.
+                <strong>eMoflon</strong> is a tool suite for
+	        Model-Driven Engineering (MDE) that provides a range of visual and
+	        formal languages for (meta)modelling and model management.
 	        <br/>
 	        <br/>
-	        eMoflon currently consists of the following three tools, which all share a common foundation based on graph pattern matching and graph transformation:
+	        eMoflon currently consists of the following three
+	        tools, which all share a common foundation based on graph pattern matching and graph transformation:
               </h3>
 	      <br/>
                 <a href="#emoflonCore" class="btn btn-outline btn-xl page-scroll">eMoflon::Core</a>
@@ -94,7 +97,9 @@
         </div>
         <div class="col-sm-6">
           <div class="device-container">
-            <img src="img/eMoflonLogoWithTex_semitransparent.png" class="img-responsive" width="70%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
+            <img src="img/eMoflonLogoWithTex_semitransparent.png"
+	    class="img-responsive" width="70%" alt="eMoflon logo"
+	    style="margin-left: auto; margin-right: auto;">
           </div>
         </div>
       </div>
@@ -107,25 +112,40 @@
        <div class="col-md-8 col-md-offset-2">
           <h2>eMoflon::Core</h2>
           <p>
-            eMoflon::Core is a lean tool that allows you to generate EMF-compliant Java code whenever you update your Ecore metamodel.
-            eMoflon::Core also allows you to inject the implementation of EOperations in a versioning-system-friendly manner.
-            It is also the basis for eMoflon::TIE and eMoflon::IBeX.
+	 Over the years we have extracted commonalities from our various EMF-based tools into a plugin that provides a thin layer of
+	 extra goodies over EMF.  This layer, which we constantly extend, currently provides:
 	  </p>
+	 <ul>
+	   <li>
+	   A project wizard, nature, and builder that fully automate the EMF generation process for your metamodels.
+	   </li>
+	   <li>
+	   A pragmatic means of integrating handwritten with generated code via what we call injections.
+	   </li>
+	   <li>
+	   A visualisation of Ecore models and metamodels using PlantUML.
+	   </li>
+	   <li>
+	   A collection of useful utils for working with EMF and Eclipse.
+	   </li>
+	 </ul>
+	 <p>
+	 You can install and use eMoflon::Core either directly for (meta)modelling with EMF, or as a basis for developing your own modelling tools.
+	 </p>
 	  <div class="col-sm-6">
             <div class="device-container">
               <img src="img/eMoflonLogoCore.png" class="img-responsive" width="50%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
             </div>
 	  </div>
           <p>
-            To get started, just follow the 
-            <a href="https://paper.dropbox.com/doc/Meta-Modelling-with-eMoflonIBeX-zyOqELGZ0X9jL85TAs7pf">eMoflon::Core Handbook</a>
+            To get started we recommend working through our 
+            <a href="https://paper.dropbox.com/doc/Meta-Modelling-with-eMoflonIBeX-zyOqELGZ0X9jL85TAs7pf">eMoflon::Core handbook</a>.
           </p>
           <p>
-            In case of problems, please consult the <b><a href="https://github.com/eMoflon/emoflon-core/issues">eMoflon::Core issue tracker</a></b>
-	    or drop us a mail at  <b>contact(at)emoflon.org</b>. Thanks!
+            If you have any problems or questions use our <b><a href="https://github.com/eMoflon/emoflon-core/issues">eMoflon::Core issue tracker</a></b>.
           </p>
           <p>
-            eMoflon::Core is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on <a href="https://github.com/eMoflon/emoflon-core">GitHub</a>.
+            eMoflon::Core is open source (dually licensed under GPL 3.0 and EPL 1.0) and is available on <a href="https://github.com/eMoflon/emoflon-core">GitHub</a>.
           </p>
         </div>
       </div>
@@ -138,11 +158,13 @@
        <div class="col-md-8 col-md-offset-2">
           <h2>eMoflon::TIE</h2>
           <p>
-            The purpose of eMoflon::TIE is to build standalone EMF-based tools.
-            Based on a textual or visual behavioral specification (Story-Driven Modeling / Triple Graph Grammars), eMoflon::TIE produces EMF-compliant code that can be used standalone.
-            eMoflon::TIE is composed of two parts:
+	 eMoflon::TIE is a code generator that is able to generate fully EMF-compliant Java code from Story Diagrams, a language for unidirectional model transformation, and Triple Graph Grammars (TGGs), a language for bidirectional model transformation.
+	 <br/>
+            eMoflon::TIE is currently composed of two parts:
             the eMoflon::TIE IDE Eclipse feature (required) and
-            the eMoflon::TIE Enterprise Architect addin (only for visual syntax support).
+	 the eMoflon::TIE Enterprise Architect addin (only for visual syntax support).
+	 <br/>
+	 Although the TGG part of eMoflon::TIE is no longer being actively developed, it is stable, mature, and highly optimised. 
           </p>
           <div class="col-sm-6">
             <div class="device-container">
@@ -150,16 +172,20 @@
             </div>
 	  </div>
           <p>
-            In case of problems, please consult the <b><a href="https://github.com/eMoflon/emoflon-tool/issues">eMoflon::TIE issue tracker</a></b>
-	    or drop us a mail at <b>contact(at)emoflon.org</b>. Thanks!
+            To get started we recommend working through our  
+             <a href="https://github.com/eMoflon/emoflon-docu/releases">eMoflon::TIE handbook</a>.
           </p>
           <p>
-            If you are completely new to eMoflon, we recommend you to start reading the <a href="https://github.com/eMoflon/emoflon-docu/releases">eMoflon::TIE handbook</a> first!
-            The <a href="https://github.com/eMoflon/emoflon-docu/wiki">eMoflon::TIE GitHub Wiki</a> contains an <a href="https://github.com/eMoflon/emoflon-docu/wiki/eMoflon-FAQ">FAQ
-	    site</a> for specific questions and troubleshooting.
-            In the <a href="https://groups.google.com/forum/#!forum/emoflon">eMoflon Google group</a>, we spread exciting eMoflon-related news (e.g., new releases).
-            The file <a href="https://emoflon.github.io/eclipse-plugin/beta/updatesite/changelog.txt">changelog.txt</a> contains an overview of the changes introduced
+            If you have any problems or questions use our <b><a href="https://github.com/eMoflon/emoflon-tool/issues">eMoflon::TIE issue tracker</a></b> or consult the <a href="https://github.com/eMoflon/emoflon-docu/wiki">eMoflon::TIE GitHub Wiki</a> and <a href="https://github.com/eMoflon/emoflon-docu/wiki/eMoflon-FAQ">FAQ
+	  site</a> for specific questions and troubleshooting.
+	  </p>
+	  <p>
+            In the <a href="https://groups.google.com/forum/#!forum/emoflon">eMoflon Google group</a>, we spread eMoflon-related news (e.g., new releases).
+            Consult <a href="https://emoflon.github.io/eclipse-plugin/beta/updatesite/changelog.txt">changelog.txt</a> for an overview of the changes introduced
 	    in each eMoflon::TIE version.
+	  </p>
+          <p>
+            eMoflon::TIE is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on <a href="https://github.com/eMoflon/emoflon-tool">GitHub</a>.
           </p>
     
           <div class="alert alert-success">
@@ -181,16 +207,12 @@
           Afterwards, proceed with the intallation as usual.
           </div>
           </p>
-          <h3>Fingerprints</h2>
+          <h3>Fingerprints</h3>
           The eMoflon Eclipse plugin is signed.
           The following fingerprints allow you to verify the validity of the certificate.
           <pre>MD5:    F1:E9:FF:4E:7B:D7:6D:90:9F:4D:A8:24:34:66:46:24
 SHA1:   F7:23:92:9D:9A:92:86:7C:9A:16:04:8C:2E:E7:04:1D:AE:BB:5A:B6
 SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:71:55:72:35:24:A9:3A:39</pre>
-
-          <h3>Source code<h3>
-          <p>
-          eMoflon::TIE is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on <a href="https://github.com/eMoflon/emoflon-tool">GitHub</a>.
           </p>
         </div>
       </div>
@@ -203,21 +225,23 @@ SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:
        <div class="col-md-8 col-md-offset-2">
           <h2>eMoflon::IBeX</h2>
 	  <p>
-            eMoflon::IBeX is a tool that allows you to implement model transformations in a reactive way.
-            It is based on incremental graph pattern matching, which makes reacting to model changes fast.
-	  </p>
+	 eMoflon::IBeX is an incremental interpreter for graph patterns and graph transformation rules (for unidirectional model transformation), and for Triple Graph Grammars (TGGs) for bidirectional model transformation.<br/>
+	 eMoflon::IBeX uses an incremental graph pattern matcher meaning that it can be used for reactive programming and trades memory for almost constant response time to model changes.
+	 While eMoflon::IBeX is not (yet) as scalable as eMoflon::TIE, it is very flexible, and already offers many more model management operations than has ever been possible in the same tool.<br/>
+	 Some of the tasks we already support and can automatically derive from a single TGG include: model generation, consistency checking, link creation, incremental model synchronisation, and soon much more.
+	 Making eMoflon::IBeX as efficient as possible is a current research challenge.
+	 </p>
           <div class="col-sm-6">
             <div class="device-container">
               <img src="img/eMoflonLogoIbex.png" class="img-responsive" width="50%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
             </div>
 	  </div>
           <p>
-            Please read the handbooks on <a href="https://paper.dropbox.com/doc/Unidirectional-Model-Transformation-with-eMoflonIBeX-siVjGl9SaMSuBnBYEv6cG">unidirectional</a>
-	    and <a href="https://paper.dropbox.com/doc/Bidirectional-Model-Transformation-with-eMoflonIBeX-GxyQmS2198CgxBhOCj8Hv">bidirectional model transformations</a>.
+	  To get started we recommend working through our eMoflon::IBeX handbooks on <a href="https://paper.dropbox.com/doc/Unidirectional-Model-Transformation-with-eMoflonIBeX-siVjGl9SaMSuBnBYEv6cG">unidirectional</a>
+	    and <a href="https://paper.dropbox.com/doc/Bidirectional-Model-Transformation-with-eMoflonIBeX-GxyQmS2198CgxBhOCj8Hv">bidirectional model transformation</a>.
           </p>
           <p>
-            In case of problems, please consult the <b><a href="https://github.com/eMoflon/emoflon-ibex-democles/issues">eMoflon::IBeX issue tracker</a></b>
-	    or drop us a mail at <b>contact(at)emoflon.org</b>. Thanks!
+	  If you have any problems or questions use our <b><a href="https://github.com/eMoflon/emoflon-ibex-democles/issues">eMoflon::IBeX issue tracker</a></b>.
           </p>
           <p>
             eMoflon::IBeX is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on
