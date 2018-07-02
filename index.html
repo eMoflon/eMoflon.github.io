@@ -2,13 +2,12 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="This is the project site of the tool eMoflon."/>
+    <meta name="description" content="This is the project site of the
+    tool suite eMoflon."/>
     <meta name="author" content=""/>
-
     <link rel="shortcut icon" href="./img/eMoflonLogoNoText_semitransparent.ico" type="image/ico; charset=binary" />
 
     <title>eMoflon Project Site</title>
@@ -38,7 +37,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body id="page-top">
@@ -55,13 +53,11 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a class="page-scroll" href="#gettingstarted">Getting started</a></li>
-          <li><a class="page-scroll" href="#action">In action</a></li>
           <li><a class="page-scroll" href="#emoflonCore">eMoflon::Core</a></li>
           <li><a class="page-scroll" href="#emoflonTie">eMoflon::TIE</a></li>
           <li><a class="page-scroll" href="#emoflonIbex">eMoflon::IBeX</a></li>
-          <li><a class="page-scroll" href="#development">Development</a></li>
-          <li><a class="page-scroll" href="#impressum">Impressum</a></li>
+	  <li><a class="page-scroll" href="#action">In Action</a></li>
+	  <li><a class="page-scroll" href="#development">Development</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -75,31 +71,23 @@
         <div class="col-sm-6">
           <div class="header-content">
             <div class="header-content-inner">
-              <h2>
-              <strong>eMoflon</strong> is a toolsuite for building tools.
-              It allows you to model software systems using a visual or a textual syntax, afterwards generating EMF-compliant Java code from your model.
-              The eMoflon toolsuite consists of three tools.
-              </h2>
-              <a href="#emoflonLandscape" class="btn btn-outline btn-xl page-scroll">eMoflon toolsuite</a>
+              <h3>
+                <strong>eMoflon</strong> is a tool suite for
+	        Model-Driven Engineering (MDE) that provides a range of visual and
+	        formal languages for (meta)modelling and model management.
+	        <br/>
+	        <br/>
+	        eMoflon currently consists of the following three
+	        tools, which all share a common foundation based on graph pattern matching and graph transformation:
+              </h3>
+	      <br/>
+                <a href="#emoflonCore" class="btn btn-outline btn-xl page-scroll">eMoflon::Core</a>
+	      <br/>
+              <br/>
+                <a href="#emoflonTie" class="btn btn-outline btn-xl page-scroll">eMoflon::TIE</a>
               <br/>
               <br/>
-              <a href="#action" class="btn btn-outline btn-xl page-scroll">eMoflon in action</a>
-              <br/>
-              <br/>
-              <!-- <a href="#emoflonCore" class="btn btn-outline btn-xl page-scroll">eMoflon::Core</a> -->
-              <!-- <br/> -->
-              <!-- <br/> -->
-              <!-- <a href="#emoflonTie" class="btn btn-outline btn-xl page-scroll">eMoflon::TIE</a> -->
-              <!-- <br/> -->
-              <!-- <br/> -->
-              <!-- <a href="#emoflonIbex" class="btn btn-outline btn-xl page-scroll">eMoflon::IBeX</a> -->
-              <!-- <br/> -->
-              <!-- <br/> -->
-              <a href="#development" class="btn btn-outline btn-xl page-scroll">eMoflon development</a>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
+                <a href="#emoflonIbex" class="btn btn-outline btn-xl page-scroll">eMoflon::IBeX</a>
               <br/>
               <br/>
               <br/>
@@ -109,183 +97,55 @@
         </div>
         <div class="col-sm-6">
           <div class="device-container">
-            <img src="img/eMoflonLogoWithTex_semitransparent.png" class="img-responsive" width="70%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
+            <img src="img/eMoflonLogoWithTex_semitransparent.png"
+	    class="img-responsive" width="70%" alt="eMoflon logo"
+	    style="margin-left: auto; margin-right: auto;">
           </div>
         </div>
       </div>
     </div>
   </header>
-  
-  <section id="emoflonLandscape" class="emoflonToolsuiteSection text-center bg-toolsuite">
-      <div class="container">
-        <h2 class="mb-5">The eMoflon toolsuite</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/eMoflonLogoCore.png" alt="">
-              <h5>eMoflon::Core</h5>
-              <p class="font-weight-light mb-0">For lean EMF-based code generation.</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/eMoflonLogoTie.png" alt="">
-              <h5>eMoflon::TIE</h5>
-              <p class="font-weight-light mb-0">For building standalone uni-/bidirectional EMF-based model transformation tools.</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/eMoflonLogoIbex.png" alt="">
-              <h5>eMoflon::IBeX</h5>
-              <p class="font-weight-light mb-0">For building incremental uni-/bidirectional EMF-based model transformation tools.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
 
-  <section id="action" class="bg-primary text-left">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h2>eMoflon in Action</h2>
-          In this section, we want to give you an impression of scenarios in which eMoflon may be applied.
-          If you want to experiment with eMoflon yourself, proceed to <a href="#emoflonCore">eMoflon::Core</a>, <a href="#emoflonTie">eMoflon::TIE</a>, or <a href="#emoflonIbex">eMoflon::IBeX</a>.
-          <h3>Screencasts & Virtual Machines</h3>
-          <p>You may have a look at <a href="https://www.youtube.com/watch?v=BKdw67zrjOw">this screencast</a> or at one of the following virtual machines for trying out eMoflon:
-          <ul>
-          <li>This
-          <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_eMoflon_08_05_2013.vdi" target="_blank"> virtual machine</a> was created for our TGG comparison paper.</li>
-          <li>This
-          <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_eMoflonEMF.vdi" target="_blank">virtual machine</a> contains a running implementation of the Ecore2HTML case study, which can also be found in the
-          <a href="https://bx-community.wikidot.com/examples:ecore2html" target="_blank">BX community wiki</a>.
-          </li>
-          <li>
-          This
-          <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_eMoflon-TGG-Examples.vdi" target="_blank"> virtual machine</a> contains a set of 17 TGG examples implemented with eMoflon and documented in the
-          <a href="https://bx-community.wikidot.com/examples:home" target="_blank">BX examples repository </a>
-          </li>
-          <li>
-              This <a href="https://db.tt/gYgQMShZ" target="_blank">virtual machine</a> contains various TGG examples and was used for a <a href="https://www.cs.ox.ac.uk/projects/tlcbx/ssbx/" target="_blank">summer school</a> on bidirectional transformations.
-          </li>
-          </ul>
-          </p>
-
-          <h3>Projects and institutions using eMoflon</h3>
-          <p>The following is an overview of applications of eMoflon in industrial and scientific projects and for teaching purposes.</p>
-          <ul>
-          <li>A case study using eMoflon for model based testing of Software Product Lines (MoSo-PoLiTe) is presented in
-          <a href="https://doi.org/10.1016/j.jvlc.2013.08.001" target="_blank">this paper</a>.
-          </li>
-          <li>
-          <a href="https://www.maki.tu-darmstadt.de/sfb_maki/teilprojekte/projektbereich_a/tp_a01/tp_a1.de.jsp" target="_blank">Subproject A1</a> of <i>Multi-mechanism Adaptation for the Future Internet</i> (Corporate Research Center of the DFG, 1053, MAKI)
-          </li>
-          <li>
-          <i>Integrated Model-based Testing of Continuously Evolving Software Product Lines</i> (DFG Priority Program 1593, IMoTEP, <a href="http://www.dfg-spp1593.de/index.php?id=86" target="_blank">project website</a>)
-          </li>
-          <li>
-          A solution for the Java Refactoring case study of the Transformation Tool Contest 2015. The case resources, the eMoflon solution (available for immediate execution in a Virtual Machine) as well as other solutions for a potential comparison can be found under
-          <a href="https://www.transformation-tool-contest.eu/2015/solutions_refactoring.html" target="_blank">https://www.transformation-tool-contest.eu/2015/solutions_refactoring.html</a>.
-          </li>
-          <li>
-          Teaching model-driven software development at FH Münster:
-          <a href="https://fh-muenster.de/wirtschaft/personen/lehrende/thoene/lehre.php" target="_blank">Model-Driven Development</a>
-          </li>
-          <li>
-          Project <i>Heterogeneous and Distributed Services for the Future Computing Continuum</i> (HEADS),
-          <a href="http://heads-project.eu/" target="_blank">http://heads-project.eu/</a>
-          </li>
-          <li>
-          <a href="https://www.es.tu-darmstadt.de/forschung/concurrent-engineering-tool-integration/" target="_blank" class="external-link">Computer-aided engineering case study</a> (Software Campus cooperation between Real-Time Systems Lab and Siemens)
-          </li>
-          <li>
-          Noyer A., Iyenghar P., Pulvermueller,E., Pramme F., Engelhardt J., Samson, B., Bikker G., "Tool independent code generation for the UML closing the gap between proprietary models and the standardized UML model," <i>Intl. Conf. on Evaluation of Novel Approaches to Software Engineering (ENASE)</i>, pp.1,9, 28-30 (2014) (Details on
-          <a href="https://ieeexplore.ieee.org/document/7077126/?arnumber=7077126" target="_blank">IEEE Xplore</a>)
-          </li>
-          <li>
-          Peldszus S., Kulcsár G., Lochau M., Schulze S., "Continuous Detection of Design Flaws in Evolving Object-Oriented Programs using Incremental Multi-pattern Matching," <i>Proceedings of the 31st International Conference on Automated Software Engineering (ASE)</i>, pp. 578--589, September 2016 (DOI: <a href="https://doi.org/10.1145/2970276.2970338">10.1145/2970276.2970338</a>)
-          </li>
-          <li>
-          Kluge R., Stein M., Giessing D., Schürr A., Mühlhäuser M.: "cMoflon: Model-Driven Generation of Embedded C Code for Wireless Sensor Networks." In: Anjorin A., Espinoza H. (eds) Modelling Foundations and Applications. ECMFA 2017. Lecture Notes in Computer Science, vol 10376. Springer, Cham (DOI: <a href="https://doi.org/10.1007/978-3-319-61482-3_7">10.1007/978-3-319-61482-3_7</a>)
-          </li>
-          </ul>
-
-          <h3>Publications</h3>
-          For further<b> background information</b> we refer to the following papers on eMoflon:</p>
-          <ul>
-          <li>Erhan Leblebici, Anthony Anjorin, and Andy Schürr. "<b>Developing eMoflon with eMoflon.</b>" <i>Theory and Practice of Model Transformations</i>. Springer International Publishing, 138-145 (2014). (DOI: <a href="https://doi.org/10.1007/978-3-319-08789-4_10" target="_blank" class="external-link-new-window">10.1007/978-3-319-08789-4_10</a>)
-          </li>
-          <li>Anthony Anjorin, et al. "<b>eMoflon: Leveraging EMF and Professional CASE Tools.</b>" <i>Informatik</i>, 281 (2011). (<a href="https://cs.emis.de/LNI/Proceedings/Proceedings192/281.pdf" target="_blank" class="external-link-new-window">PDF</a>)
-          </li>
-          <li>
-          The current TGG algorithm in eMoflon is documented in: Anthony Anjorin. "<b>Synchronization of Models on Different Abstraction Levels using Triple Graph Grammars,</b>" <i>PhD Thesis</i>, (2014). (<a href="https://tuprints.ulb.tu-darmstadt.de/4399/" target="_blank">Online at TUprints</a>
-          </li>
-          </ul>
-
-          <p>For a <b>comparison </b>of eMoflon with other tools and approaches see the following publications.</p>
-          <ul>
-          <li>
-          Erhan Leblebici et al. "<b>A Comparison of Incremental Triple Graph Grammar Tools.</b>" <i>Electronic Communications of the EASST</i>, <i>67 </i>(2014).
-          (<a href="https://journal.ub.tu-berlin.de/eceasst/article/view/939" target="_blank">PDF</a>)
-          </li>
-          <li>
-          Stephan Hildebrandt et al. "<b>A survey of triple graph grammar tools.</b>" <i>Electronic Communications of the EASST 57</i> (2013).
-          (<a href="https://journal.ub.tu-berlin.de/eceasst/article/view/865/0" target="_blank" class="external-link-new-window">PDF</a>)
-          </li>
-          <li>
-          Sven Patzina and Lars Patzina. "<b>A case study based comparison of ATL and SDM.</b>" <i>Applications of Graph Transformations with Industrial Relevance</i>. Springer, 210-221 (2012).
-          (<a href="https://dx.doi.org/10.1007/978-3-642-34176-2_18" target="_blank" class="external-link-new-window">PDF</a>)
-          </li>
-          <li>
-          Hildebrandt, Stephan, et al. "A survey of triple graph grammar tools." <i>Electronic Communications of the EASST</i> 57 (2013). (<a href="https://journal.ub.tu-berlin.de/eceasst/article/view/865/0" target="_blank">PDF</a>)
-          <ul><!-- <li>
-          <b>Test data:</b> The test data used in the survey can be downloaded
-          <a href="https://emoflon.org/fileadmin/download/eMoflon/bx13_TGG_Survey.zip" target="_blank">here</a>. 
-          </li>-->
-          <li><b>Virtual machines: </b><a href="https://is.ieis.tue.nl/staff/pvgorp/share/" target="_blank">SHARE</a> images for all three TGG tools:
-          <ul>
-          <li><a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_eMoflon_08_05_2013.vdi" target="_blank">Virtual machine</a> for <b><a href="https://www.emoflon.org/" target="_blank">eMoflon</a></b>
-          </li>
-          <li>
-          <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_MDELab_MoTE.vdi" target="_blank">Virtual machine</a> for <b><a href="https://www.mdelab.de/mote/" target="_blank">MoTE</a></b>
-          </li>
-          <li>
-          <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_TGG-Interpreter.vdi" target="_blank">Virtual machine</a> for <a href="http://jgreen.de/tools/tgg-interpreter/" target="_blank">the TGG Interpreter</a>
-          </ul>
-          </li>
-          </ul>
-          </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  
   <section id="emoflonCore" class="bg-emoflonCore text-left">
     <div class="container">
       <div class="row">
        <div class="col-md-8 col-md-offset-2">
           <h2>eMoflon::Core</h2>
-          <h3>Summary</h3>
           <p>
-          eMoflon::Core is a lean tool that allows you to generate EMF-compliant Java code whenever you update your Ecore metamodel.
-          eMoflon::Core also allows you to inject the implementation of EOperations in a versioning-system-friendly manner.
-          It is also the basis for eMoflon::TIE and eMoflon::IBeX.
+	 Over the years we have extracted commonalities from our various EMF-based tools into a plugin that provides a thin layer of
+	 extra goodies over EMF.  This layer, which we constantly extend, currently provides:
+	  </p>
+	 <ul>
+	   <li>
+	   A project wizard, nature, and builder that fully automate the EMF generation process for your metamodels.
+	   </li>
+	   <li>
+	   A pragmatic means of integrating handwritten with generated code via what we call injections.
+	   </li>
+	   <li>
+	   A visualisation of Ecore models and metamodels using PlantUML.
+	   </li>
+	   <li>
+	   A collection of useful utils for working with EMF and Eclipse.
+	   </li>
+	 </ul>
+	 <p>
+	 You can install and use eMoflon::Core either directly for (meta)modelling with EMF, or as a basis for developing your own modelling tools.
+	 </p>
+	  <div class="col-sm-6">
+            <div class="device-container">
+              <img src="img/eMoflonLogoCore.png" class="img-responsive" width="50%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
+            </div>
+	  </div>
+          <p>
+            To get started we recommend working through our 
+            <a href="https://paper.dropbox.com/doc/Meta-Modelling-with-eMoflonIBeX-zyOqELGZ0X9jL85TAs7pf">eMoflon::Core handbook</a>.
           </p>
-          <h3>Getting started</h3>
           <p>
-          To get started, just follow the 
-          <a href="https://paper.dropbox.com/doc/Meta-Modelling-with-eMoflonIBeX-zyOqELGZ0X9jL85TAs7pf">eMoflon::Core Handbook</a>
+            If you have any problems or questions use our <b><a href="https://github.com/eMoflon/emoflon-core/issues">eMoflon::Core issue tracker</a></b>.
           </p>
-          <h3>Getting help</h3>
           <p>
-          In case of problems, please consult the <b><a href="https://github.com/eMoflon/emoflon-core/issues">eMoflon::Core issue tracker</a></b> or drop us a mail at <b>contact(at)emoflon.org</b>. Thanks!
-          </p>
-          
-          <h3>Source code<h3>
-          <p>
-          eMoflon::Core is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on <a href="https://github.com/eMoflon/emoflon-core">GitHub</a>.
+            eMoflon::Core is open source (dually licensed under GPL 3.0 and EPL 1.0) and is available on <a href="https://github.com/eMoflon/emoflon-core">GitHub</a>.
           </p>
         </div>
       </div>
@@ -296,32 +156,40 @@
     <div class="container">
       <div class="row">
        <div class="col-md-8 col-md-offset-2">
-          <h2>eMoflon::TIE &ndash; Tool Integration Environment</h2>
-          <h3>Summary</h3>
+          <h2>eMoflon::TIE</h2>
           <p>
-          The purpose of eMoflon::TIE is to build standalone EMF-based tools.
-          Based on a textual or visual behavioral specification (Story-Driven Modeling / Triple Graph Grammars), eMoflon::TIE produces EMF-compliant code that can be used standalone.
-          eMoflon::TIE is composed of two parts:
-          the eMoflon::TIE IDE Eclipse feature (required) and
-          the eMoflon::TIE Enterprise Architect addin (only for visual syntax support).
+	 eMoflon::TIE is a code generator that is able to generate fully EMF-compliant Java code from Story Diagrams, a language for unidirectional model transformation, and Triple Graph Grammars (TGGs), a language for bidirectional model transformation.
+	 <br/>
+            eMoflon::TIE is currently composed of two parts:
+            the eMoflon::TIE IDE Eclipse feature (required) and
+	 the eMoflon::TIE Enterprise Architect addin (only for visual syntax support).
+	 <br/>
+	 Although the TGG part of eMoflon::TIE is no longer being actively developed, it is stable, mature, and highly optimised. 
           </p>
-          
-          <h3>Getting help</h3>
+          <div class="col-sm-6">
+            <div class="device-container">
+              <img src="img/eMoflonLogoTie.png" class="img-responsive" width="50%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
+            </div>
+	  </div>
           <p>
-          In case of problems, please consult the <b><a href="https://github.com/eMoflon/emoflon-tool/issues">eMoflon::TIE issue tracker</a></b> or drop us a mail at <b>contact(at)emoflon.org</b>. Thanks!
+            To get started we recommend working through our  
+             <a href="https://github.com/eMoflon/emoflon-docu/releases">eMoflon::TIE handbook</a>.
           </p>
-          
-          <h3>Getting started</h3>
           <p>
-          If you are completely new to eMoflon, we recommend you to start reading the <a href="https://github.com/eMoflon/emoflon-docu/releases">eMoflon::TIE handbook</a> first!
-          The <a href="https://github.com/eMoflon/emoflon-docu/wiki">eMoflon::TIE GitHub Wiki</a> contains an <a href="https://github.com/eMoflon/emoflon-docu/wiki/eMoflon-FAQ">FAQ site</a> for specific questions and troubleshooting.
-          In the <a href="https://groups.google.com/forum/#!forum/emoflon">eMoflon Google group</a>, we spread exciting eMoflon-related news (e.g., new releases).
-          The file <a href="https://emoflon.github.io/eclipse-plugin/beta/updatesite/changelog.txt">changelog.txt</a> contains an overview of the changes introduced in each eMoflon::TIE version.
+            If you have any problems or questions use our <b><a href="https://github.com/eMoflon/emoflon-tool/issues">eMoflon::TIE issue tracker</a></b> or consult the <a href="https://github.com/eMoflon/emoflon-docu/wiki">eMoflon::TIE GitHub Wiki</a> and <a href="https://github.com/eMoflon/emoflon-docu/wiki/eMoflon-FAQ">FAQ
+	  site</a> for specific questions and troubleshooting.
+	  </p>
+	  <p>
+            In the <a href="https://groups.google.com/forum/#!forum/emoflon">eMoflon Google group</a>, we spread eMoflon-related news (e.g., new releases).
+            Consult <a href="https://emoflon.github.io/eclipse-plugin/beta/updatesite/changelog.txt">changelog.txt</a> for an overview of the changes introduced
+	    in each eMoflon::TIE version.
+	  </p>
+          <p>
+            eMoflon::TIE is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on <a href="https://github.com/eMoflon/emoflon-tool">GitHub</a>.
           </p>
-          
+    
           <div class="alert alert-success">
-          <strong>Note:</strong>
-          
+          <strong>Note:</strong>      
           A well-known problem is that the dependency from eMoflon::TIE to PlantUML is not resolved automatically.
           Please consult <a href="https://groups.google.com/forum/#!topic/emoflon/nziorCi0y6M">this post</a> to solve the issue manually.
           <br/>
@@ -339,16 +207,12 @@
           Afterwards, proceed with the intallation as usual.
           </div>
           </p>
-          <h3>Fingerprints</h2>
+          <h3>Fingerprints</h3>
           The eMoflon Eclipse plugin is signed.
           The following fingerprints allow you to verify the validity of the certificate.
           <pre>MD5:    F1:E9:FF:4E:7B:D7:6D:90:9F:4D:A8:24:34:66:46:24
 SHA1:   F7:23:92:9D:9A:92:86:7C:9A:16:04:8C:2E:E7:04:1D:AE:BB:5A:B6
 SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:71:55:72:35:24:A9:3A:39</pre>
-
-          <h3>Source code<h3>
-          <p>
-          eMoflon::TIE is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on <a href="https://github.com/eMoflon/emoflon-tool">GitHub</a>.
           </p>
         </div>
       </div>
@@ -360,21 +224,173 @@ SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:
       <div class="row">
        <div class="col-md-8 col-md-offset-2">
           <h2>eMoflon::IBeX</h2>
-          <h3>Summary</h3>
-          eMoflon::IBeX is a tool that allows you to implement model transformations in a reactive way.
-          It is based on incremental graph pattern matching, which makes reacting to model changes fast.
-          <h3>Getting started</h3>
+	  <p>
+	 eMoflon::IBeX is an incremental interpreter for graph patterns and graph transformation rules (for unidirectional model transformation), and for Triple Graph Grammars (TGGs) for bidirectional model transformation.<br/>
+	 eMoflon::IBeX uses an incremental graph pattern matcher meaning that it can be used for reactive programming and trades memory for almost constant response time to model changes.
+	 While eMoflon::IBeX is not (yet) as scalable as eMoflon::TIE, it is very flexible, and already offers many more model management operations than has ever been possible in the same tool.<br/>
+	 Some of the tasks we already support and can automatically derive from a single TGG include: model generation, consistency checking, link creation, incremental model synchronisation, and soon much more.
+	 Making eMoflon::IBeX as efficient as possible is a current research challenge.
+	 </p>
+          <div class="col-sm-6">
+            <div class="device-container">
+              <img src="img/eMoflonLogoIbex.png" class="img-responsive" width="50%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
+            </div>
+	  </div>
           <p>
-          Please read the handbooks on <a href="https://paper.dropbox.com/doc/Unidirectional-Model-Transformation-with-eMoflonIBeX-siVjGl9SaMSuBnBYEv6cG">unidirectional</a> and <a href="https://paper.dropbox.com/doc/Bidirectional-Model-Transformation-with-eMoflonIBeX-GxyQmS2198CgxBhOCj8Hv">bidirectional model transformations</a>.
+	  To get started we recommend working through our eMoflon::IBeX handbooks on <a href="https://paper.dropbox.com/doc/Unidirectional-Model-Transformation-with-eMoflonIBeX-siVjGl9SaMSuBnBYEv6cG">unidirectional</a>
+	    and <a href="https://paper.dropbox.com/doc/Bidirectional-Model-Transformation-with-eMoflonIBeX-GxyQmS2198CgxBhOCj8Hv">bidirectional model transformation</a>.
           </p>
-          <h3>Getting help</h3>
           <p>
-          In case of problems, please consult the <b><a href="https://github.com/eMoflon/emoflon-ibex-democles/issues">eMoflon::IBeX issue tracker</a></b> or drop us a mail at <b>contact(at)emoflon.org</b>. Thanks!
+	  If you have any problems or questions use our <b><a href="https://github.com/eMoflon/emoflon-ibex-democles/issues">eMoflon::IBeX issue tracker</a></b>.
           </p>
-          <h3>Source code<h3>
           <p>
-          eMoflon::IBeX is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on <a href="https://github.com/eMoflon/emoflon-ibex-democles">GitHub</a>.
+            eMoflon::IBeX is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on
+	    <a href="https://github.com/eMoflon/emoflon-ibex-democles">GitHub</a>.
           </p>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <section id="action" class="bg-primary text-left">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2>eMoflon in Action</h2>
+	  <p>
+	    Over the years, eMoflon has been applied in diverse application scenarios and domains.
+	    In the following, we provide a collection of virtual machines, screen casts, links to lectures and projects using eMoflon, and relevant publications.
+	    If you are using or have used eMoflon in a project, publication, lecture, or similar, please contact us as we would love to mention your application scenario.
+	  </p>
+	  
+	  <h3>Screencasts & Virtual Machines</h3>
+	  A demonstration of eMoflon::TiE in the context of a past research project is provided by <a href="https://www.youtube.com/watch?v=BKdw67zrjOw">this screencast</a>.
+	  To try out eMoflon::TiE yourself you can use one of the following virtual machines:
+          <ul>
+          <li>This
+          <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_eMoflon_08_05_2013.vdi" target="_blank"> virtual machine</a>
+	    was created for one of our TGG comparison papers.</li>
+          <li>This
+          <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_eMoflonEMF.vdi" target="_blank">virtual machine</a> contains
+	    a running implementation of the Ecore2HTML case study, which can also be found in the
+          <a href="https://bx-community.wikidot.com/examples:ecore2html" target="_blank">BX community wiki</a>.
+          </li>
+          <li>
+          This
+          <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_eMoflon-TGG-Examples.vdi" target="_blank"> virtual machine</a> contains
+	    a set of 17 TGG examples implemented with eMoflon::TiE and also documented in the
+          <a href="https://bx-community.wikidot.com/examples:home" target="_blank">BX examples repository </a>
+          </li>
+          <li>
+              This <a href="https://db.tt/gYgQMShZ" target="_blank">virtual machine</a> contains further TGG examples and was used for a
+	      <a href="https://www.cs.ox.ac.uk/projects/tlcbx/ssbx/" target="_blank">summer school</a> on bidirectional transformations.
+          </li>
+          </ul>
+          </p>
+
+          <h3>Projects and institutions using eMoflon</h3>
+	  <ul>
+          <li>A case study using eMoflon for model based testing of Software Product Lines (MoSo-PoLiTe) is presented in
+            <a href="https://doi.org/10.1016/j.jvlc.2013.08.001" target="_blank">this paper</a>.
+          </li>
+          <li>
+          <a href="https://www.maki.tu-darmstadt.de/sfb_maki/teilprojekte/projektbereich_a/tp_a01/tp_a1.de.jsp" target="_blank">Subproject A1</a>
+	    of <i>Multi-mechanism Adaptation for the Future Internet</i> (Corporate Research Center of the DFG, 1053, MAKI)
+          </li>
+          <li>
+          <i>Integrated Model-based Testing of Continuously Evolving Software Product Lines</i> (DFG Priority Program 1593, IMoTEP,
+	    <a href="http://www.dfg-spp1593.de/index.php?id=86" target="_blank">project website</a>)
+          </li>
+          <li>
+            A solution for the Java Refactoring case study of the Transformation Tool Contest 2015. The case resources, the eMoflon solution
+	    (available for immediate execution in a Virtual Machine) as well as other solutions for a potential comparison can be found under
+            <a href="https://www.transformation-tool-contest.eu/2015/solutions_refactoring.html"
+	      target="_blank">https://www.transformation-tool-contest.eu/2015/solutions_refactoring.html</a>.
+          </li>
+          <li>
+          Teaching model-driven software development at FH Münster:
+          <a href="https://fh-muenster.de/wirtschaft/personen/lehrende/thoene/lehre.php" target="_blank">Model-Driven Development</a>
+          </li>
+          <li>
+          Project <i>Heterogeneous and Distributed Services for the Future Computing Continuum</i> (HEADS),
+          <a href="http://heads-project.eu/" target="_blank">http://heads-project.eu/</a>
+          </li>
+          <li>
+          <a href="https://www.es.tu-darmstadt.de/forschung/concurrent-engineering-tool-integration/" target="_blank" class="external-link">Computer-aided
+	    engineering case study</a> (Software Campus cooperation between Real-Time Systems Lab and Siemens)
+          </li>
+          <li>
+            Noyer A., Iyenghar P., Pulvermueller,E., Pramme F., Engelhardt J., Samson, B., Bikker G., "Tool independent code generation for the UML closing the gap
+	    between proprietary models and the standardized UML model," <i>Intl. Conf. on Evaluation of Novel Approaches to Software Engineering (ENASE)</i>, pp.1,9, 28-30 (2014) (Details on
+            <a href="https://ieeexplore.ieee.org/document/7077126/?arnumber=7077126" target="_blank">IEEE Xplore</a>)
+          </li>
+          <li>
+            Peldszus S., Kulcsár G., Lochau M., Schulze S., "Continuous Detection of Design Flaws in Evolving Object-Oriented Programs using Incremental
+	    Multi-pattern Matching," <i>Proceedings of the 31st International Conference on Automated Software Engineering (ASE)</i>, pp. 578--589, September 2016
+	    (DOI: <a href="https://doi.org/10.1145/2970276.2970338">10.1145/2970276.2970338</a>)
+          </li>
+          <li>
+            Kluge R., Stein M., Giessing D., Schürr A., Mühlhäuser M.: "cMoflon: Model-Driven Generation of Embedded C Code for Wireless Sensor Networks." In:
+	    Anjorin A., Espinoza H. (eds) Modelling Foundations and Applications. ECMFA 2017. Lecture Notes in Computer Science, vol 10376. Springer,
+	    Cham (DOI: <a href="https://doi.org/10.1007/978-3-319-61482-3_7">10.1007/978-3-319-61482-3_7</a>)
+          </li>
+          </ul>
+
+          <h3>Publications</h3>
+          For further<b> background information</b> we refer to the following papers on eMoflon:
+          <ul>
+          <li>Erhan Leblebici, Anthony Anjorin, and Andy Schürr. "<b>Developing eMoflon with eMoflon.</b>" <i>Theory and Practice of Model Transformations</i>. Springer
+	    International Publishing, 138-145 (2014). (DOI: <a href="https://doi.org/10.1007/978-3-319-08789-4_10"
+	    target="_blank" class="external-link-new-window">10.1007/978-3-319-08789-4_10</a>)
+          </li>
+          <li>Anthony Anjorin, et al. "<b>eMoflon: Leveraging EMF and Professional CASE Tools.</b>" <i>Informatik</i>, 281 (2011).
+	    (<a href="https://cs.emis.de/LNI/Proceedings/Proceedings192/281.pdf" target="_blank" class="external-link-new-window">PDF</a>)
+          </li>
+          <li>
+            The current TGG algorithm in eMoflon::TiE is documented in: Anthony Anjorin. "<b>Synchronization of Models on Different Abstraction Levels using Triple
+	    Graph Grammars</b>" <i>PhD Thesis</i>, (2014) (<a href="https://tuprints.ulb.tu-darmstadt.de/4399/" target="_blank">Online at TUprints</a>).
+          </li>
+          </ul>
+
+          For a <b>comparison </b>of eMoflon with other tools and approaches see the following publications.
+          <ul>
+          <li>
+          Erhan Leblebici et al. "<b>A Comparison of Incremental Triple Graph Grammar Tools.</b>" <i>Electronic Communications of the EASST</i>, <i>67 </i>(2014).
+          (<a href="https://journal.ub.tu-berlin.de/eceasst/article/view/939" target="_blank">PDF</a>)
+          </li>
+          <li>
+          Stephan Hildebrandt et al. "<b>A Survey of Triple Graph Grammar Tools.</b>" <i>Electronic Communications of the EASST 57</i> (2013).
+          (<a href="https://journal.ub.tu-berlin.de/eceasst/article/view/865/0" target="_blank" class="external-link-new-window">PDF</a>)
+          </li>
+          <li>
+            Sven Patzina and Lars Patzina. "<b>A Case Study Based Comparison of ATL and SDM.</b>" <i>Applications of Graph Transformations with Industrial Relevance</i>.
+	    Springer, 210-221 (2012).
+          (<a href="https://dx.doi.org/10.1007/978-3-642-34176-2_18" target="_blank" class="external-link-new-window">PDF</a>)
+          </li>
+          <li>
+            Hildebrandt, Stephan, et al. "A Survey of Triple Graph Grammar Tools." <i>Electronic Communications of the EASST</i> 57 (2013).
+	    (<a href="https://journal.ub.tu-berlin.de/eceasst/article/view/865/0" target="_blank">PDF</a>)
+          <ul><!-- <li>
+          <b>Test data:</b> The test data used in the survey can be downloaded
+          <a href="https://emoflon.org/fileadmin/download/eMoflon/bx13_TGG_Survey.zip" target="_blank">here</a>. 
+          </li>-->
+          <li><b>Virtual machines: </b><a href="https://is.ieis.tue.nl/staff/pvgorp/share/" target="_blank">SHARE</a> images for all three TGG tools in the comparison:
+          <ul>
+          <li><a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_eMoflon_08_05_2013.vdi" target="_blank">Virtual
+	    machine</a> for <b><a href="https://www.emoflon.org/" target="_blank">eMoflon::TiE</a></b>
+          </li>
+          <li>
+          <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_MDELab_MoTE.vdi" target="_blank">Virtual machine</a>
+	  for <b><a href="https://www.mdelab.de/mote/" target="_blank">MoTE</a></b>
+          </li>
+          <li>
+          <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_TGG-Interpreter.vdi" target="_blank">Virtual machine</a>
+	  for <a href="http://jgreen.de/tools/tgg-interpreter/" target="_blank">the TGG Interpreter</a>
+          </ul>
+          </li>
+          </ul>
+          </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -386,12 +402,15 @@ SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:
         <div class="col-md-8 col-md-offset-2">
           <h2>Development</h2>
           <p>
-          eMoflon is developed jointly at the <a href="https://www.es.tu-darmstadt.de/english/" target="_blank" class="external-link-new-window">Real-Time Systems Lab, TU Darmstadt</a> (TUDA) and the <a href="https://is.uni-paderborn.de/en/research-group/fg-engels/home.html" target="_blank" class="external-link-new-window">Database and Information Systems Group, University of Paderborn</a> (UPB).
+          eMoflon is developed jointly at the <a href="https://www.es.tu-darmstadt.de/english/" target="_blank" class="external-link-new-window">
+	  Real-Time Systems Lab, TU Darmstadt</a> (TUDA) and the <a href="https://is.uni-paderborn.de/en/research-group/fg-engels/home.html"
+	  target="_blank" class="external-link-new-window">Database and Information Systems Group, Paderborn University</a> (UPB).
           </p>
           <p>
-          Current Developers
+          <h3>Current Developers</h3>
           <ul>
-          <li><a href="https://cs.uni-paderborn.de/dbis/personal/arbeitsgruppe/mitarbeiter/anthony-anjorin/visitenkarte/" target="_blank" class="external-link-new-window">Anthony Anjorin</a> (UPB, eMoflon::IBeX/Core)</li>
+          <li><a href="https://cs.uni-paderborn.de/dbis/personal/arbeitsgruppe/mitarbeiter/anthony-anjorin/visitenkarte/" target="_blank"
+	    class="external-link-new-window">Anthony Anjorin</a> (UPB, eMoflon::IBeX/Core)</li>
           <li><a href="https://www.es.tu-darmstadt.de/es/team/roland-kluge/" target="_blank" class="external-link-new-window">Roland Kluge</a> (TUDA, eMoflon::TIE/Core)</li>
           <li><a href="https://www.es.tu-darmstadt.de/es/team/geza-kulcsar/" target="_blank" class="external-link-new-window">Géza Kulcsar</a> (TUDA, eMoflon::TIE) </li>
           <li><a href="https://www.es.tu-darmstadt.de/es/team/lars-fritsche/" target="_blank" class="external-link-new-window">Lars Fritsche</a> (TUDA, eMoflon::IBeX/TIE)</li>
@@ -399,33 +418,13 @@ SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:
           </ul>
           </p>
           <p>
-          Former Developers
-          The following people have contributed to eMoflon or its Java JMI-based predecessor MOFLON.
+          <h3>Former Developers</h3>
           <ul>
-          <li><em>Scientists:</em> Carsten Amelunxen, Frederik Deckwerth, Felix Klar, Alexander Königs, Marius Lauder, Erhan Leblebici, Lars Patzina, Sven Patzina, Tobias Rötschke, Ingo Weisemöller, Martin Wieber</li>
+          <li><em>Scientists:</em> Carsten Amelunxen, Frederik Deckwerth, Felix Klar, Alexander Königs, Marius Lauder, Erhan Leblebici, Lars Patzina, Sven Patzina,
+	    Tobias Rötschke, Ingo Weisemöller, Martin Wieber</li>
           <li><em>Student developers:</em> Sascha Zander, Anne-Sophie Ettl, Thomas Kovac Alexander Schleich, Nico Wombacher, Lars Kliegel, Lukas Neumann, and many more.</li>
           </ul>
           </p>
-        </div>
-        <div class="col-md-2 col-md-offset-2 developer-logo-outer">
-          <div class="developer-logo-inner">
-            <img src="img/RealTimeSystemsLabLogo.png" class="img-responsive" alt="Real-Time Systems Lab logo">
-          </div>
-        </div>
-        <div class="col-md-2 developer-logo-outer">
-          <div class="developer-logo-inner">
-            <img src="img/TUDarmstadtLogoWhiteBackground.png" class="img-responsive" alt="TU Darmstadt logo">
-          </div>
-        </div>
-        <div class="col-md-2 developer-logo-outer">
-          <div class="developer-logo-inner">
-            <img src="img/SoftwareQualityLabLogoWhiteBackground.png" class="img-responsive" alt="Software Quality Lab logo">
-          </div>
-        </div>
-        <div class="col-md-2 developer-logo-outer">
-          <div class="developer-logo-inner">
-            <img src="img/UniPaderbornLogo.png" class="img-responsive" alt="Uni Paderborn logo" class="bg-white">
-          </div>
         </div>
       </div>
     </div>
@@ -437,40 +436,43 @@ SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:
     <div class="container">
       <div class="row">
        <div class="col-md-8 col-md-offset-2">
-          <h3>Impressum und Datenschutzerklärung (German)</h3>
-          <p>eMoflon ist ein Forschungsprojekt der</p>
+          <h2>Impressum und Datenschutzerklärung (German)</h2>
+	 <p>
+          eMoflon ist ein Forschungsprojekt der
+	 </p>
           <blockquote style="margin-bottom:0;margin-top:0;">
-          <p>
           <b>TU Darmstadt</b><br/>
           <b>Fachgebiet Echtzeitsysteme</b><br/>
           Magdalenenstr. 4<br/>
           64289 Darmstadt<br/>
           Germany<br/>
-          </p>
-          <p>
+          
+          
           Telefon: +49 6151 16-22350<br> 
           Telefax: +49 6151 16-22352<br>
           E-Mail: kontakt(at)es.tu-darmstadt.de<br>
           Internet: <a href="https://www.es.tu-darmstadt.de/" target="_blank">www.es.tu-darmstadt.de</a>
-          </p>
           </blockquote>
-          <p> 
+         <br/>
+
+	 <p>
           Für das Fachgebiet Echtzeitsysteme gilt das <a href="https://www.tu-darmstadt.de/impressum/" target="_blank" class="external-link-new-window">Impressum der TU Darmstadt</a>
           Vertretungsberechtigter des FG Echtzeitsysteme ist Prof. Dr. rer. nat. Andy Schürr.
           </p>
 
-          <h4>Haftungsausschluss</h4>
-          <p>
+          <h3>Haftungsausschluss</h3>
+          
           Trotz sorgfältiger inhaltlicher Kontrolle uebernehmen wir keine Haftung für die Inhalte externer Links.
           Fuer den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
-          </p>
-          <h4>Datenschutzerklärung</h4>
-          <p>
+          
+          <h3>Datenschutzerklärung</h3>
+          
           Diese Webseite wird über GitHub Pages gehostet.
-          Neben den Daten, die laut <a href="https://help.github.com/articles/github-privacy-statement/" target="_blank">GithHub Privacy Policy</a> verarbeitet werden, erheben wir keinerlei weitere Daten der Besucher unserer Webseite.
+          Neben den Daten, die laut <a href="https://help.github.com/articles/github-privacy-statement/" target="_blank">GithHub Privacy Policy</a> verarbeitet werden,
+	  erheben wir keinerlei weitere Daten der Besucher unserer Webseite.
           Verantwortlich für den Datenschutz ist: TU Darmstadt, Fachgebiet Echtzeitsysteme.
           Bei Fragen zum Datenschutz wenden Sie sich bitte an kontakt(at)es.tu-darmstadt.de.
-         </p>
+         
        </div>
       </div>
     </div>
@@ -478,7 +480,7 @@ SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:
 
   <footer>
     <div class="container">
-      <p>&copy; 2012,2018 eMoflon Developer Team. All Rights Reserved. Built with GitHub Pages and Bootstrap</p>
+      <p>&copy; 2012-2018 eMoflon Developer Team. All Rights Reserved. Built with GitHub Pages and Bootstrap</p>
     </div>
   </footer>
 
