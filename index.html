@@ -158,13 +158,23 @@
        <div class="col-md-8 col-md-offset-2">
           <h2>eMoflon::TIE</h2>
           <p>
-	 eMoflon::TIE is a code generator that is able to generate fully EMF-compliant Java code from Story Diagrams, a language for unidirectional model transformation, and Triple Graph Grammars (TGGs), a language for bidirectional model transformation.
-	 <br/>
-            eMoflon::TIE is currently composed of two parts:
-            the eMoflon::TIE IDE Eclipse feature (required) and
-	 the eMoflon::TIE Enterprise Architect addin (only for visual syntax support).
-	 <br/>
-	 Although the TGG part of eMoflon::TIE is no longer being actively developed, it is stable, mature, and highly optimised.
+            <div class="alert alert-danger">
+              <strong>Important note:
+              The active development of eMoflon::TIE was stopped on 2018-12-31.
+              The latest releases is available (see below, tested with Eclipse 2018-09) and the source code is still accessible on GitHub.
+              We are currently working on a new version of eMoflon::TIE that builds on a textual specification language that is compatible with <a class="page-scroll" href="#emoflonIbex">eMoflon::IBeX</a>.
+              We will post news on the new eMoflon::TIE here.
+              In the meantime, we encourage all eMoflon::TIE users to use <a class="page-scroll" href="#emoflonIbex">eMoflon::IBeX</a> instead.</strong>
+            </div>
+          </p>
+          <p>
+           eMoflon::TIE is a code generator that is able to generate fully EMF-compliant Java code from Story Diagrams, a language for unidirectional model transformation, and Triple Graph Grammars (TGGs), a language for bidirectional model transformation.
+           <br/>
+                    eMoflon::TIE is currently composed of two parts:
+                    the eMoflon::TIE IDE Eclipse feature (required) and
+           the eMoflon::TIE Enterprise Architect addin (only for visual syntax support).
+           <br/>
+           Although the TGG part of eMoflon::TIE is no longer being actively developed, it is stable, mature, and highly optimised.
           </p>
           <div class="col-sm-6">
             <div class="device-container">
@@ -190,22 +200,22 @@
           </p>
 
           <div class="alert alert-success">
-          <strong>Note:</strong>
-          A well-known problem is that the dependency from eMoflon::TIE to PlantUML is not resolved automatically.
-          Please consult <a href="https://groups.google.com/forum/#!topic/emoflon/nziorCi0y6M">this post</a> to solve the issue manually.
-          <br/>
-          The current version of eMoflon::TIE is <a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_3.4.0">eMoflon 3.4.0</a><a></a></b>.
-          Use the following update-site URL for installing eMoflon::TIE: <a href="https://emoflon.org/eclipse-plugin/beta/updatesite/">https://emoflon.org/eclipse-plugin/beta/updatesite/</a>
-          <br/>
-          When you first try to install eMoflon::TIE, Eclipse may complain about missing dependencies.
-          The reason is that eMoflon refers to additional update sites for its external dependencies.
-          To fix this issue, press <em>Manage...</em> in the <em>Install New Software...</em> dialog and enable the following update sites:
-          <ul>
-          <li><a href="hhttps://emoflon.org/emoflon-core-updatesite/stable/updatesite/">https://emoflon.org/emoflon-core-updatesite/stable/updatesite/</a></li>
-          <!-- No HTTPS available -->
-          <li><a href="http://hallvard.github.io/plantuml/">http://hallvard.github.io/plantuml/</a></li>
-          </ul>
-          Afterwards, proceed with the intallation as usual.
+            <strong>Note:</strong>
+            A well-known problem is that the dependency from eMoflon::TIE to PlantUML is not resolved automatically.
+            Please consult <a href="https://groups.google.com/forum/#!topic/emoflon/nziorCi0y6M">this post</a> to solve the issue manually.
+            <br/>
+            The current version of eMoflon::TIE is <a href="https://github.com/eMoflon/emoflon-tool/releases/tag/emoflon_3.4.0">eMoflon 3.4.0</a><a></a></b>.
+            Use the following update-site URL for installing eMoflon::TIE: <a href="https://emoflon.org/eclipse-plugin/beta/updatesite/">https://emoflon.org/eclipse-plugin/beta/updatesite/</a>
+            <br/>
+            When you first try to install eMoflon::TIE, Eclipse may complain about missing dependencies.
+            The reason is that eMoflon refers to additional update sites for its external dependencies.
+            To fix this issue, press <em>Manage...</em> in the <em>Install New Software...</em> dialog and enable the following update sites:
+            <ul>
+            <li><a href="https://emoflon.org/emoflon-core-updatesite/stable/updatesite/">https://emoflon.org/emoflon-core-updatesite/stable/updatesite/</a></li>
+            <!-- No HTTPS available -->
+            <li><a href="http://hallvard.github.io/plantuml/">http://hallvard.github.io/plantuml/</a></li>
+            </ul>
+            Afterwards, proceed with the intallation as usual.
           </div>
           </p>
           <h3>Fingerprints</h3>
