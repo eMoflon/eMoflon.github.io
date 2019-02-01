@@ -54,7 +54,7 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li><a class="page-scroll" href="#emoflonCore">eMoflon::Core</a></li>
-          <li><a class="page-scroll" href="#emoflonTie">eMoflon::TIE</a></li>
+          <li><a class="page-scroll" href="#emoflonTie">eMoflon::TIE-GT</a></li>
           <li><a class="page-scroll" href="#emoflonIbex">eMoflon::IBeX</a></li>
 	  <li><a class="page-scroll" href="#action">In Action</a></li>
 	  <li><a class="page-scroll" href="#development">Development</a></li>
@@ -84,7 +84,7 @@
                 <a href="#emoflonCore" class="btn btn-outline btn-xl page-scroll">eMoflon::Core</a>
               <br/>
               <br/>
-                <a href="#emoflonTie" class="btn btn-outline btn-xl page-scroll">eMoflon::TIE</a>
+                <a href="#emoflonTie" class="btn btn-outline btn-xl page-scroll">eMoflon::TIE-GT</a>
               <br/>
               <br/>
                 <a href="#emoflonIbex" class="btn btn-outline btn-xl page-scroll">eMoflon::IBeX</a>
@@ -156,25 +156,10 @@
     <div class="container">
       <div class="row">
        <div class="col-md-8 col-md-offset-2">
-          <h2>eMoflon::TIE</h2>
-          <p>
-            <div class="alert alert-danger">
-              <strong>Important note:
-              The active development of eMoflon::TIE was stopped on 2018-12-31.
-              The latest releases is available (see below, tested with Eclipse 2018-09) and the source code is still accessible on GitHub.
-              We are currently working on a new version of eMoflon::TIE that builds on a textual specification language that is compatible with <a class="page-scroll" href="#emoflonIbex">eMoflon::IBeX</a>.
-              We will post news on the new eMoflon::TIE here.
-              In the meantime, we encourage all eMoflon::TIE users to use <a class="page-scroll" href="#emoflonIbex">eMoflon::IBeX</a> instead.</strong>
-            </div>
-          </p>
-          <p>
-           eMoflon::TIE is a code generator that is able to generate fully EMF-compliant Java code from Story Diagrams, a language for unidirectional model transformation, and Triple Graph Grammars (TGGs), a language for bidirectional model transformation.
-           <br/>
-                    eMoflon::TIE is currently composed of two parts:
-                    the eMoflon::TIE IDE Eclipse feature (required) and
-           the eMoflon::TIE Enterprise Architect addin (only for visual syntax support).
-           <br/>
-           Although the TGG part of eMoflon::TIE is no longer being actively developed, it is stable, mature, and highly optimised.
+          <h2>eMoflon::TIE-GT</h2>
+          <p>eMoflon::TIE-GT is a code generator that generates fully EMF-compliant Java code Ecore models.
+          Compared to other EMF code generators, you can even specify the implementation of methods (i.e., EOperations) using eMoflon::TIE-GT.
+          The MOSL (Moflon specificiation language) control flow language provides constructs such as conditions (if-then, if-then-else), loops (while-do, do-while, foreach), pattern invocations, and operation invocations.
           </p>
           <div class="col-sm-6">
             <div class="device-container">
@@ -182,48 +167,21 @@
             </div>
           </div>
           <p>
-            To get started we recommend working through our
-             <a href="https://github.com/eMoflon/emoflon-docu/releases">eMoflon::TIE handbook</a>.
-             If you are an experienced eMoflon user, we refer you to the <a href="https://github.com/eMoflon/emoflon-tool/releases/">current eMoflon::TIE release</a> for information about the update-site URL etc.
+          Hungry for more? Great! We recommend working through <a href="https://paper.dropbox.com/doc/AWv3DNd7CRDxrFVu_uQOzdlnAg-FhfAuR8acECs3kUpgAxoZ">this handbook</a>, which introduces eMoflon::TIE-GT based on the famous Sokoban board game.
           </p>
           <p>
-            If you have any problems or questions use our <b><a href="https://github.com/eMoflon/emoflon-tool/issues">eMoflon::TIE issue tracker</a></b> or consult the <a href="https://github.com/eMoflon/emoflon-docu/wiki">eMoflon::TIE GitHub Wiki</a> and <a href="https://github.com/eMoflon/emoflon-docu/wiki/eMoflon-FAQ">FAQ
-	  site</a> for specific questions and troubleshooting.
+          More experienced users can proceed directly to the <a href="https://github.com/eMoflon/emoflon-tie-gt/blob/master/README.md">quick-setup instructions.</a>
           </p>
           <p>
-            In the <a href="https://groups.google.com/forum/#!forum/emoflon">eMoflon::TIE Google group</a>, we spread eMoflon::TIE-related news (e.g., new releases).
-            Consult <a href="https://emoflon.github.io/eclipse-plugin/beta/updatesite/changelog.txt">changelog.txt</a> for an overview of the changes introduced
-	    in each eMoflon::TIE version.
+          If you have any problems or questions, use our <b><a href="https://github.com/eMoflon/emoflon-tie-gt/issues">issue tracker</a></b> or contact us via <em>contact (AT) emoflon DOT org.</em>
           </p>
           <p>
-            eMoflon::TIE is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on <a href="https://github.com/eMoflon/emoflon-tool">GitHub</a>.
+          In the <a href="https://groups.google.com/forum/#!forum/emoflon">eMoflon Google group</a>, we spread news, for instance about new releases.
           </p>
-
-          <div class="alert alert-success">
-          <strong>Note:</strong>
-          A well-known problem is that the dependency from eMoflon::TIE to PlantUML is not resolved automatically.
-          Please consult <a href="https://groups.google.com/forum/#!topic/emoflon/nziorCi0y6M">this post</a> to solve the issue manually.
-          <br/>
-          Use the following update-site URL for installing the latest version of eMoflon::TIE: <a href="https://emoflon.org/eclipse-plugin/beta/updatesite/">https://emoflon.org/eclipse-plugin/beta/updatesite/</a>
-          <br/>
-          When you first try to install eMoflon::TIE, Eclipse may complain about missing dependencies.
-          The reason is that eMoflon refers to additional update sites for its external dependencies.
-          To fix this issue, press <em>Manage...</em> in the <em>Install New Software...</em> dialog and enable the following update sites:
-          <ul>
-          <li><a href="https://emoflon.org/emoflon-core-updatesite/stable/updatesite/">https://emoflon.org/emoflon-core-updatesite/stable/updatesite/</a></li>
-          <li><a href="https://hallvard.github.io/plantuml/">https://hallvard.github.io/plantuml/</a></li>
-          </ul>
-          Afterwards, proceed with the intallation as usual.
-          </div>
-          </p>
-          <h3>Fingerprints</h3>
-          The eMoflon::TIE Eclipse plugin is signed.
-          The following fingerprints allow you to verify the validity of the certificate.
-          <br/>
-          <br/>
-          <pre>MD5:    F1:E9:FF:4E:7B:D7:6D:90:9F:4D:A8:24:34:66:46:24
-SHA1:   F7:23:92:9D:9A:92:86:7C:9A:16:04:8C:2E:E7:04:1D:AE:BB:5A:B6
-SHA256: 07:69:56:2D:7F:63:28:B6:CE:1C:77:9B:4F:1E:F4:3E:BE:10:CC:48:14:A7:7D:7E:71:55:72:35:24:A9:3A:39</pre>
+          <p>
+          eMoflon::TIE-GT is licensed open source under GPL 3.0 and EPL 1.0.
+          Its source code is available on <a href="https://github.com/eMoflon/emoflon-tie-gt">GitHub</a>.
+          Sample projects can be found <a href="https://github.com/eMoflon/emoflon-tie-gt-examples">here</a>.
           </p>
         </div>
       </div>
