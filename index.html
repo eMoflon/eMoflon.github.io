@@ -92,7 +92,7 @@
 		However, the tool can still be installed and the source code is still available on GitHub.
 	      </h4>
 	      <br/>
-                <a href="#emoflonTie" class="btn btn-outline btn-xl page-scroll">eMoflon::TIE-GT</a>
+                <a href="#emoflonTie" class="btn btn-outline btn-xl page-scroll">eMoflon::TIE-GT (Discontinued)</a>
               <br/>
               <br/>
               <br/>
@@ -124,9 +124,6 @@
 	   A project wizard, nature, and builder that fully automate the EMF generation process for your metamodels.
 	   </li>
 	   <li>
-	   A pragmatic means of integrating handwritten with generated code via what we call injections.
-	   </li>
-	   <li>
 	   A visualisation of Ecore models and metamodels using PlantUML.
 	   </li>
 	   <li>
@@ -155,43 +152,7 @@
       </div>
     </div>
   </section>
-
-  <section id="emoflonTie" class="bg-emoflonTie text-left">
-    <div class="container">
-      <div class="row">
-       <div class="col-md-8 col-md-offset-2">
-          <h2>eMoflon::TIE-GT</h2>
-          <p>eMoflon::TIE-GT is a code generator that produces fully EMF-compliant Java code from Ecore meta-models.
-          Compared to other EMF code generators, you can even specify the implementation of methods (i.e., EOperations) using eMoflon::TIE-GT.
-          The MOSL (Moflon specificiation language) control flow language provides constructs such as conditions (if-then, if-then-else), loops (while-do, do-while, foreach), pattern invocations, and operation invocations.
-          </p>
-          <div class="col-sm-6">
-            <div class="device-container">
-              <img src="img/eMoflonLogoTie.png" class="img-responsive" width="50%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
-            </div>
-          </div>
-          <p>
-          Hungry for more? Great! We recommend working through <a href="https://paper.dropbox.com/doc/AWv3DNd7CRDxrFVu_uQOzdlnAg-FhfAuR8acECs3kUpgAxoZ">this handbook</a>, which introduces eMoflon::TIE-GT based on the famous Sokoban board game.
-          </p>
-          <p>
-          More experienced users can proceed directly to the <a href="https://github.com/eMoflon/emoflon-tie-gt/blob/master/README.md">quick-setup instructions.</a>
-          </p>
-          <p>
-          If you have any problems or questions, use our <b><a href="https://github.com/eMoflon/emoflon-tie-gt/issues">issue tracker</a></b> or contact us via <em>contact (AT) emoflon DOT org.</em>
-          </p>
-          <p>
-          In the <a href="https://groups.google.com/forum/#!forum/emoflon">eMoflon Google group</a>, we spread news, for instance about new releases.
-          </p>
-          <p>
-          eMoflon::TIE-GT is licensed open source under GPL 3.0 and EPL 1.0.
-          Its source code is available on <a href="https://github.com/eMoflon/emoflon-tie-gt">GitHub</a>.
-          Sample projects can be found <a href="https://github.com/eMoflon/emoflon-tie-gt-examples">here</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
+	
   <section id="emoflonIbex" class="bg-emoflonIbex text-left">
     <div class="container">
       <div class="row">
@@ -200,9 +161,9 @@
             <p>
             eMoflon::IBeX is an incremental interpreter for graph patterns and graph transformation rules (for unidirectional model transformation), and for Triple Graph Grammars (TGGs) for bidirectional model transformation.<br/>
             eMoflon::IBeX uses an incremental graph pattern matcher meaning that it can be used for reactive programming and trades memory for almost constant response time to model changes.
-            While eMoflon::IBeX is not (yet) as scalable as eMoflon::TIE, it is very flexible, and already offers many more model management operations than has ever been possible in the same tool.<br/>
+            Due to recent improvements to our incremental graph pattern matching tools, eMoflon::IBeX became just as scalable as eMoflon::TIE was. Additionally, eMoflon::IBeX it is very flexible, and already offers many more model management operations than has ever been possible in the same tool.<br/>
             Some of the tasks we already support and can automatically derive from a single TGG include: model generation, consistency checking, link creation, incremental model synchronisation, and soon much more.
-            Making eMoflon::IBeX as efficient as possible is a current research challenge.
+            Making eMoflon::IBeX even more efficient is a current research challenge and an ongoing effort.
             </p>
         </div>
         <div class="col-md-4 col-md-offset-2">
@@ -216,13 +177,13 @@
             and <a href="https://paper.dropbox.com/doc/Bidirectional-Model-Transformation-with-eMoflonIBeX-GxyQmS2198CgxBhOCj8Hv">bidirectional model transformation</a>.
             </p>
             <p>
-            If you have any problems or questions use our <b><a href="https://github.com/eMoflon/emoflon-ibex-democles/issues">eMoflon::IBeX issue tracker</a></b>.
+            If you have any problems or questions use our <b><a href="https://github.com/eMoflon/emoflon-ibex/issues">eMoflon::IBeX issue tracker</a></b>.
             </p>
         </div>
         <div class="col-md-8 col-md-offset-2">
             <p>
             eMoflon::IBeX is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on
-            <a href="https://github.com/eMoflon/emoflon-ibex-democles">GitHub</a>.
+            <a href="https://github.com/eMoflon/emoflon-ibex">GitHub</a>.
             </p>
         </div>
       </div>
@@ -407,7 +368,41 @@
     </div>
   </section>
 
-
+<section id="emoflonTie" class="bg-emoflonTie text-left">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-8 col-md-offset-2">
+          <h2>eMoflon::TIE-GT</h2>
+          <p>eMoflon::TIE-GT is a code generator that produces fully EMF-compliant Java code from Ecore meta-models.
+          Compared to other EMF code generators, you can even specify the implementation of methods (i.e., EOperations) using eMoflon::TIE-GT.
+          The MOSL (Moflon specificiation language) control flow language provides constructs such as conditions (if-then, if-then-else), loops (while-do, do-while, foreach), pattern invocations, and operation invocations.
+          </p>
+          <div class="col-sm-6">
+            <div class="device-container">
+              <img src="img/eMoflonLogoTie.png" class="img-responsive" width="50%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
+            </div>
+          </div>
+          <p>
+          Hungry for more? Great! We recommend working through <a href="https://paper.dropbox.com/doc/AWv3DNd7CRDxrFVu_uQOzdlnAg-FhfAuR8acECs3kUpgAxoZ">this handbook</a>, which introduces eMoflon::TIE-GT based on the famous Sokoban board game.
+          </p>
+          <p>
+          More experienced users can proceed directly to the <a href="https://github.com/eMoflon/emoflon-tie-gt/blob/master/README.md">quick-setup instructions.</a>
+          </p>
+          <p>
+          If you have any problems or questions, use our <b><a href="https://github.com/eMoflon/emoflon-tie-gt/issues">issue tracker</a></b> or contact us via <em>contact (AT) emoflon DOT org.</em>
+          </p>
+          <p>
+          In the <a href="https://groups.google.com/forum/#!forum/emoflon">eMoflon Google group</a>, we spread news, for instance about new releases.
+          </p>
+          <p>
+          eMoflon::TIE-GT is licensed open source under GPL 3.0 and EPL 1.0.
+          Its source code is available on <a href="https://github.com/eMoflon/emoflon-tie-gt">GitHub</a>.
+          Sample projects can be found <a href="https://github.com/eMoflon/emoflon-tie-gt-examples">here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section id="impressum" class="bg-impressum text-left">
     <div class="container">
