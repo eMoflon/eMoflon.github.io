@@ -55,7 +55,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a class="page-scroll" href="#emoflonCore">eMoflon::Core</a></li>
           <li><a class="page-scroll" href="#emoflonIbex">eMoflon::IBeX</a></li>
-	  <li><a class="page-scroll" href="#emoflonTie">eMoflon::TIE-GT (Discontinued)</a></li>
+	  <li><a class="page-scroll" href="#emoflonNeo">eMoflon::Neo (eNeo)</a></li>
 	  <li><a class="page-scroll" href="#action">In Action</a></li>
 	  <li><a class="page-scroll" href="#development">Development</a></li>
         </ul>
@@ -77,7 +77,7 @@
 	        formal languages for (meta)modelling and model management.
 	        <br/>
 	        <br/>
-	        eMoflon currently consists of the following two
+	        eMoflon currently consists of the following
 	        tools, which all share a common foundation based on graph pattern matching and graph transformation:
               </h3>
               <br/>
@@ -87,12 +87,8 @@
                 <a href="#emoflonIbex" class="btn btn-outline btn-xl page-scroll">eMoflon::IBeX</a>
               <br/>
               <br/>
-	      <h4>
-	      <b>Update:</b> The eMoflon::TIE-GT tool has been discontinued recently and will receive no further updates or support.
-		However, the tool can still be installed and the source code is still available on GitHub.
-	      </h4>
-	      <br/>
-                <a href="#emoflonTie" class="btn btn-outline btn-xl page-scroll">eMoflon::TIE-GT (Discontinued)</a>
+                <a href="#emoflonNeo" class="btn btn-outline btn-xl
+    page-scroll">eMoflon::Neo</a>
               <br/>
               <br/>
               <br/>
@@ -161,9 +157,12 @@
             <p>
             eMoflon::IBeX is an incremental interpreter for graph patterns and graph transformation rules (for unidirectional model transformation), and for Triple Graph Grammars (TGGs) for bidirectional model transformation.<br/>
             eMoflon::IBeX uses an incremental graph pattern matcher meaning that it can be used for reactive programming and trades memory for almost constant response time to model changes.
-            Due to recent improvements to our incremental graph pattern matching tools, eMoflon::IBeX became just as scalable as eMoflon::TIE was. eMoflon::IBeX was build with flexibility in mind and already offers many more model management operations than has ever been possible in the same tool.<br/>
-            Some of the tasks we already support and which can be automatically derived from a single TGG include: model generation, consistency checking, link creation, incremental model synchronisation, and soon much more.
-            Making eMoflon::IBeX even more efficient is a current research challenge and an ongoing effort.
+            eMoflon::IBeX was designed with flexibility in mind and
+    already offers many more model management operations than has ever
+    been possible in the same TGG tool.<br/>
+            Some of the tasks we already support and can be
+    automatically derived from a single TGG include: model generation,
+    consistency checking, link creation, and incremental model synchronisation.
             </p>
         </div>
         <div class="col-md-4 col-md-offset-2">
@@ -190,33 +189,37 @@
     </div>
   </section>
 	
-  <section id="emoflonTie" class="bg-emoflonTie text-left">
+  <section id="emoflonNeo" class="bg-emoflonNeo text-left">
     <div class="container">
       <div class="row">
        <div class="col-md-8 col-md-offset-2">
-          <h2>eMoflon::TIE-GT (Discontinued)</h2>
+          <h2>eMoflon::Neo (eNeo)</h2>
 	  <p>
-	  <b>Note:</b> The eMoflon::TIE-GT tool has been discontinued recently and will receive no further updates or support.
-	  </p>    
-          <p>eMoflon::TIE-GT was a code generator that produced fully EMF-compliant Java code from Ecore meta-models.
-          Compared to other EMF code generators, you could even specify the implementation of methods (i.e., EOperations) using eMoflon::TIE-GT.
-          The MOSL (Moflon specificiation language) control flow language provided constructs such as conditions (if-then, if-then-else), loops (while-do, do-while, foreach), pattern invocations, and operation invocations.
+	  eNeo supports model management as a layer over Neo4j, a
+    fairly well-known graph database.  eNeo uses eMSL (the eMoflon
+    Specification Language), a uniform modelling language for
+    metamodelling and modelling, specifying patterns, graph
+    constraints, rules, and triple graph grammars, all in the same
+    uniform textual syntax with advanced support for modularity and
+    reuse via <i>refinement</i>.  eNeo provides an export of models
+    (with all referenced metamodels) to Neo4j, as well as an export of
+    patterns, constraints, rules, and triple rules to Cypher, the
+    query and transformation language used by Neo4j.  eNeo also
+    supports an API to automate all these tasks programmatically.
           </p>
           <div class="col-sm-6">
             <div class="device-container">
-              <img src="img/eMoflonLogoTie.png" class="img-responsive" width="50%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
+              <img src="img/eMoflonLogoENeo.png" class="img-responsive" width="50%" alt="eMoflon logo" style="margin-left: auto; margin-right: auto;">
             </div>
           </div>
           <p>
-          If you are interested, we recommend working through <a href="https://paper.dropbox.com/doc/AWv3DNd7CRDxrFVu_uQOzdlnAg-FhfAuR8acECs3kUpgAxoZ">this handbook</a>, which introduces eMoflon::TIE-GT based on the famous Sokoban board game.
+          To get started we recommend working through our <a
+    href="https://paper.dropbox.com/doc/Meta-Modelling-with-eNeo--A7XwoaLLwt8BChDgM25DJLrrAQ-jKeVQDlC2BAdD0TDQuF0I">eNeo
+    handbooks</a>.  If you have questions or problems, just add comments directly in the handbooks.
           </p>
           <p>
-          More experienced users can proceed directly to the <a href="https://github.com/eMoflon/emoflon-tie-gt/blob/master/README.md">quick-setup instructions.</a>
-          </p>
-          <p>
-          eMoflon::TIE-GT is licensed open source under GPL 3.0 and EPL 1.0.
-          Its source code is available on <a href="https://github.com/eMoflon/emoflon-tie-gt">GitHub</a>.
-          Sample projects can be found <a href="https://github.com/eMoflon/emoflon-tie-gt-examples">here</a>.
+          eMoflon::Neo is licensed open source under EPL 1.0.
+          Its source code is available on <a href="https://github.com/eMoflon/emoflon-neo">GitHub</a>.
           </p>
         </div>
       </div>
@@ -235,8 +238,8 @@
             </p>
 
             <h3>Screencasts & Virtual Machines</h3>
-            A demonstration of eMoflon::TiE in the context of a past research project is provided by <a href="https://www.youtube.com/watch?v=BKdw67zrjOw">this screencast</a>.
-            To try out eMoflon::TiE yourself you can use one of the following virtual machines:
+            A demonstration of eMoflon in the context of a past research project is provided by <a href="https://www.youtube.com/watch?v=BKdw67zrjOw">this screencast</a>.
+            To try out eMoflon yourself you can use one of the following virtual machines:
             <ul>
             <li>This
             <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_eMoflon_08_05_2013.vdi" target="_blank"> virtual machine</a>
@@ -249,7 +252,7 @@
             <li>
             This
             <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_eMoflon-TGG-Examples.vdi" target="_blank"> virtual machine</a> contains
-            a set of 17 TGG examples implemented with eMoflon::TiE and also documented in the
+            a set of 17 TGG examples implemented with eMoflon and also documented in the
             <a href="https://bx-community.wikidot.com/examples:home" target="_blank">BX examples repository </a>
             </li>
             <li>
@@ -318,7 +321,7 @@
             (<a href="https://cs.emis.de/LNI/Proceedings/Proceedings192/281.pdf" target="_blank" class="external-link-new-window">PDF</a>)
             </li>
             <li>
-              The current TGG algorithm in eMoflon::TiE is documented in: Anthony Anjorin. "<b>Synchronization of Models on Different Abstraction Levels using Triple
+              The TGG algorithm used in an old version of eMoflon is documented in: Anthony Anjorin. "<b>Synchronization of Models on Different Abstraction Levels using Triple
             Graph Grammars</b>" <i>PhD Thesis</i>, (2014) (<a href="https://tuprints.ulb.tu-darmstadt.de/4399/" target="_blank">Online at TUprints</a>).
             </li>
             </ul>
@@ -348,7 +351,7 @@
             <li><b>Virtual machines: </b><a href="https://is.ieis.tue.nl/staff/pvgorp/share/" target="_blank">SHARE</a> images for all three TGG tools in the comparison:
             <ul>
             <li><a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_eMoflon_08_05_2013.vdi" target="_blank">Virtual
-            machine</a> for <b><a href="https://www.emoflon.org/" target="_blank">eMoflon::TiE</a></b>
+            machine</a> for <b><a href="https://www.emoflon.org/" target="_blank">eMoflon</a></b>
             </li>
             <li>
             <a href="https://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&amp;vdi=XP-TUe_TGG-Comparison_MDELab_MoTE.vdi" target="_blank">Virtual machine</a>
@@ -380,12 +383,17 @@
           <p>
           <h3>Current Developers</h3>
           <ul>
-          <li><a href="https://cs.uni-paderborn.de/dbis/personal/arbeitsgruppe/mitarbeiter/anthony-anjorin/visitenkarte/" target="_blank"
-	    class="external-link-new-window">Anthony Anjorin</a> (UPB, eMoflon::IBeX/Core)</li>
  	  <li><a href="https://cs.uni-paderborn.de/dbis/personal/arbeitsgruppe/mitarbeiter/nils-weidmann/visitenkarte/" target="_blank"
-	    class="external-link-new-window">Nils Weidmann</a> (UPB, eMoflon::IBeX)</li>
+	    class="external-link-new-window">Nils Weidmann</a> (UPB,
+	    eMoflon::Neo)</li>
+	    <li>Maximilian Schmidt (UPB, eMoflon::Neo)</li>
           <li><a href="https://www.es.tu-darmstadt.de/es/team/lars-fritsche/" target="_blank" class="external-link-new-window">Lars Fritsche</a> (TUDA, eMoflon::IBeX/Core)</li>
-	  <li><a href="https://www.es.tu-darmstadt.de/es/team/sebastian-ehmes/" target="_blank" class="external-link-new-window">Sebastian Ehmes</a> (TUDA, eMoflon::IBeX/Core)</li>
+	  <li><a
+    href="https://www.es.tu-darmstadt.de/es/team/sebastian-ehmes/"
+    target="_blank" class="external-link-new-window">Sebastian
+	  Ehmes</a> (TUDA, eMoflon::IBeX/Core)</li>
+	  <li><a href="https://anthonyanjorin.github.io" target="_blank"
+	    class="external-link-new-window">Anthony Anjorin</a> (eMoflon::Neo)</li>
           </ul>
           </p>
           <p>
@@ -393,7 +401,8 @@
           <ul>
           <li><em>Scientists:</em> Carsten Amelunxen, Frederik Deckwerth, Felix Klar, Alexander Königs, Geza Kulcsar, Marius Lauder, Erhan Leblebici, Lars Patzina, Sven Patzina,
 	    Tobias Rötschke, Roland Speith (né Kluge), Gergely Varró, Ingo Weisemöller, Martin Wieber</li>
-          <li><em>Student developers:</em> Sascha Zander, Anne-Sophie Ettl, Thomas Kovac Alexander Schleich, Nico Wombacher, Lars Kliegel, Lukas Neumann, and many more.</li>
+          <li><em>Student developers:</em>Mario Treiber, Jannik Hinz, Patrick
+    Robrecht, Robin Oppermann, Sascha Zander, Anne-Sophie Ettl, Thomas Kovac, Alexander Schleich, Nico Wombacher, Lars Kliegel, Lukas Neumann, and many more.</li>
           </ul>
           </p>
         </div>
