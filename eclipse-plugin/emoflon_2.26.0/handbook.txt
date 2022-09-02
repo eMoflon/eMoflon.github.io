@@ -1,1 +1,0 @@
-From this release on, the handbook is published via GitHub (see release notes).
