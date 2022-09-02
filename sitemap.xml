@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://emoflon.org/new-wegpage/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://emoflon.org/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://emoflon.org/post/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://emoflon.org/contact/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -25,8 +34,6 @@
   </url><url>
     <loc>https://emoflon.org/publications/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://emoflon.org/</loc>
   </url><url>
     <loc>https://emoflon.org/tags/</loc>
   </url>

@@ -5,7 +5,17 @@
     <link>https://emoflon.org/</link>
     <description>Recent content in News on eMoflon Project Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://emoflon.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Webpage</title>
+      <link>https://emoflon.org/new-wegpage/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://emoflon.org/new-wegpage/</guid>
+      <description>We launched the new eMoflon webpage today!</description>
+    </item>
+    
     <item>
       <title>Contact</title>
       <link>https://emoflon.org/contact/</link>
