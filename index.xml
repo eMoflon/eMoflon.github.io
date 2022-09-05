@@ -22,7 +22,7 @@
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://emoflon.org/contact/</guid>
-      <description>You can send us an email. Feel free to open issues on GitHub if you find any issues in eMoflon.
+      <description>You can send us an &amp;#32;&amp;#32; . Feel free to open issues on GitHub if you find any issues in eMoflon.
 Technische Universität Darmstadt Department of Electrical Engineering and Information Technology Real-Time Systems Lab Merckstr. 25 64283 Darmstadt, Germany</description>
     </item>
     
@@ -43,7 +43,7 @@ eMoflon::IBeX eMoflon::IBeX-specific development workspace set-up steps are avai
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://emoflon.org/dev-team/</guid>
-      <description>eMoflon is developed jointly at the Ream-Time Systems Lab, TU Darmstadt (TUDa) and the Database and Information Systems Group, Paderborn University (UPB).
+      <description>eMoflon is developed jointly at the Ream-Time Systems Lab, TU Darmstadt (TUDa) and the Database and Information Systems Group, Paderborn University (UPB). Feel free to contact us.
 Current Developers Nils Weidmann (UPB, eMoflon::Neo) Lars Fritsche (TUDa, eMoflon::IBeX) Sebastian Ehmes (TUDa, eMoflon::IBeX) Maximilian Kratz (TUDa, eMoflon::IBeX) Adrian Möller and many other student developers. Former Developers Scientists: Erhan Leblebici, Roland Speith (né Kluge), Gergely Varró, Anthony Anjorin. Student developers: Tobias Niehues, Isabella Nunes Grieser, Marek Daniv, Nicolas Stahl (né Acero), Mario Treiber, Jannik Hinz, Patrick Robrecht, Robin Oppermann, Sascha Zander, Anne-Sophie Ettl, Thomas Kovac, Alexander Schleich, Nico Wombacher, Lars Kliegel, Lukas Neumann, and many more.</description>
     </item>
     
