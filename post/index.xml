@@ -6,7 +6,16 @@
     <description>Recent content in Posts on eMoflon Project Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eMoflon::Neo Eclipse build and VM released</title>
+      <link>https://emoflon.org/neo-eclipse-and-vm/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://emoflon.org/neo-eclipse-and-vm/</guid>
+      <description>Now there are two easy ways to get started with eMoflon::Neo: Our new pre-built Eclipse application and the pre-built virtual machine.</description>
+    </item>
+    
     <item>
       <title>New Webpage</title>
       <link>https://emoflon.org/new-webpage/</link>

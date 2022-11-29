@@ -6,7 +6,27 @@
     <description>Recent content in News on eMoflon Project Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download</title>
+      <link>https://emoflon.org/download/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://emoflon.org/download/</guid>
+      <description>eMoflon::IBeX Pre-built Eclipse Application (IBeX) Pre-built Virtual Machine (IBeX VM) Eclipse Update Site (IBeX) eMoflon::Neo Pre-built Eclipse Application (Neo) Pre-built Virtual Machine (Neo VM) Eclipse Update Site (Neo) eMoflon::IBeX There are three ways to download eMoflon::IBeX:
+The pre-built Eclipse application The pre-built virtual machine The Eclipse update site. We recommend the usage of our pre-built Eclipse application.
+Pre-built Eclipse Application (IBeX) You can download the latest version of our pre-built Eclipse application from the release section of our GitHub repository.</description>
+    </item>
+    
+    <item>
+      <title>eMoflon::Neo Eclipse build and VM released</title>
+      <link>https://emoflon.org/neo-eclipse-and-vm/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://emoflon.org/neo-eclipse-and-vm/</guid>
+      <description>Now there are two easy ways to get started with eMoflon::Neo: Our new pre-built Eclipse application and the pre-built virtual machine.</description>
+    </item>
+    
     <item>
       <title>New Webpage</title>
       <link>https://emoflon.org/new-webpage/</link>
@@ -48,18 +68,6 @@ Current Developers Nils Weidmann (UPB, eMoflon::Neo) Lars Fritsche (TUDa, eMoflo
     </item>
     
     <item>
-      <title>Download</title>
-      <link>https://emoflon.org/download/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://emoflon.org/download/</guid>
-      <description>eMoflon::IBeX Pre-built Eclipse Application Pre-built Virtual Machine (VM) Eclipse Update Site eMoflon::Neo eMoflon::IBeX There are three ways to download eMoflon::IBeX:
-The pre-built Eclipse application The pre-built virtual machine The Eclipse uppdate site. We recommend the usage of our pre-built Eclipse application.
-Pre-built Eclipse Application You can download the latest version of our pre-built Eclipse application from the release section of our GitHub repository.
-There are several versions available for Windows, Linux, and macOS:</description>
-    </item>
-    
-    <item>
       <title>eMoflon::IBeX</title>
       <link>https://emoflon.org/ibex/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
@@ -84,7 +92,8 @@ There are several versions available for Windows, Linux, and macOS:</description
       
       <guid>https://emoflon.org/getting-started/</guid>
       <description>eMoflon::IBeX To get started with eMoflon::IBeX, you can use our tutorial on GitHub together with the pre-built eMoflon::IBeX Eclipse application.
-If you encounter any issues with the tutorial, feel free to open an issue on GitHub.</description>
+If you encounter any issues with the tutorial, feel free to open an issue on GitHub.
+eMoflon::Neo To get started with eMoflon::Neo, you can use our tutorials together with the pre-built eMoflon::Neo Eclipse application.</description>
     </item>
     
     <item>
