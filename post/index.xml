@@ -6,7 +6,16 @@
     <description>Recent content in Posts on eMoflon Project Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eMoflon::Neo New tutorials available</title>
+      <link>https://emoflon.org/new-neo-tutorials/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://emoflon.org/new-neo-tutorials/</guid>
+      <description>There are three new tutorials to get started with eMoflon::Neo. Check out our getting started page.</description>
+    </item>
+    
     <item>
       <title>eMoflon::Neo Eclipse build and VM released</title>
       <link>https://emoflon.org/neo-eclipse-and-vm/</link>

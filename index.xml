@@ -6,7 +6,46 @@
     <description>Recent content in News on eMoflon Project Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eMoflon::IBeX</title>
+      <link>https://emoflon.org/ibex/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://emoflon.org/ibex/</guid>
+      <description>Feature Overview eMoflon::IBeX-GT Feature Overview eMoflon::IBeX-TGG Feature Overview Operational Strategies Download Getting Started Development Support eMoflon::IBeX is an open source tool suite to implement incremental model transformations formally based on the notion of graph transformations. Graph transformations are a declarative and rule-based way to define how a graph (our model) changes. Usually, this is done by writing transformation rules that describe preconditions, i.e., patterns that state when a rule should be applied, and postconditions that state how the rule will change our model.</description>
+    </item>
+    
+    <item>
+      <title>eMoflon::Neo</title>
+      <link>https://emoflon.org/neo/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://emoflon.org/neo/</guid>
+      <description>eNeo supports model management as a layer over Neo4j, a fairly well-known graph database. eNeo uses eMSL (the eMoflon Specification Language), a uniform modeling language for metamodeling and modeling, specifying patterns, graph constraints, rules, and triple graph grammars, all in the same uniform textual syntax with advanced support for modularity and reuse via refinement. eNeo provides an export of models (with all referenced metamodels) to Neo4j, as well as an export of patterns, constraints, rules, and triple rules to Cypher, the query and transformation language used by Neo4j.</description>
+    </item>
+    
+    <item>
+      <title>eMoflon::Neo New tutorials available</title>
+      <link>https://emoflon.org/new-neo-tutorials/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://emoflon.org/new-neo-tutorials/</guid>
+      <description>There are three new tutorials to get started with eMoflon::Neo. Check out our getting started page.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with eMoflon</title>
+      <link>https://emoflon.org/getting-started/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://emoflon.org/getting-started/</guid>
+      <description> eMoflon::IBeX To get started with eMoflon::IBeX, you can use our tutorial on GitHub together with the pre-built eMoflon::IBeX Eclipse application.
+If you encounter any issues with the tutorial, feel free to open an issue on GitHub.
+eMoflon::Neo To get started with eMoflon::Neo, you can use our tutorials together with the pre-built eMoflon::Neo Eclipse application. Currently, there are the following tutorials available:
+(Meta-)Modeling with eMoflon::Neo Graph Transformation (GT) with eMoflon::Neo Triple Graph Grammars (TGGs) with eMoflon::Neo </description>
+    </item>
+    
     <item>
       <title>Publications</title>
       <link>https://emoflon.org/publications/</link>
@@ -76,35 +115,6 @@ eMoflon::IBeX eMoflon::IBeX-specific development workspace set-up steps are avai
       <guid>https://emoflon.org/dev-team/</guid>
       <description>eMoflon is developed jointly at the Real-Time Systems Lab, TU Darmstadt (TUDa) and the Database and Information Systems Group, Paderborn University (UPB). Feel free to contact us.
 Current Developers Nils Weidmann (UPB, eMoflon::Neo) Lars Fritsche (TUDa, eMoflon::IBeX) Sebastian Ehmes (TUDa, eMoflon::IBeX) Maximilian Kratz (TUDa, eMoflon::IBeX) Adrian Möller and many other student developers. Former Developers Scientists: Erhan Leblebici, Roland Speith (né Kluge), Gergely Varró, Anthony Anjorin. Student developers: Tobias Niehues, Isabella Nunes Grieser, Marek Daniv, Nicolas Stahl (né Acero), Mario Treiber, Jannik Hinz, Patrick Robrecht, Robin Oppermann, Sascha Zander, Anne-Sophie Ettl, Thomas Kovac, Alexander Schleich, Nico Wombacher, Lars Kliegel, Lukas Neumann, and many more.</description>
-    </item>
-    
-    <item>
-      <title>eMoflon::IBeX</title>
-      <link>https://emoflon.org/ibex/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://emoflon.org/ibex/</guid>
-      <description>Feature Overview eMoflon::IBeX-GT Feature Overview eMoflon::IBeX-TGG Feature Overview Operational Strategies Download Development Support eMoflon::IBeX is an open source tool suite to implement incremental model transformations formally based on the notion of graph transformations. Graph transformations are a declarative and rule-based way to define how a graph (our model) changes. Usually, this is done by writing transformation rules that describe preconditions, i.e., patterns that state when a rule should be applied, and postconditions that state how the rule will change our model.</description>
-    </item>
-    
-    <item>
-      <title>eMoflon::Neo</title>
-      <link>https://emoflon.org/neo/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://emoflon.org/neo/</guid>
-      <description>eNeo supports model management as a layer over Neo4j, a fairly well-known graph database. eNeo uses eMSL (the eMoflon Specification Language), a uniform modeling language for metamodeling and modeling, specifying patterns, graph constraints, rules, and triple graph grammars, all in the same uniform textual syntax with advanced support for modularity and reuse via refinement. eNeo provides an export of models (with all referenced metamodels) to Neo4j, as well as an export of patterns, constraints, rules, and triple rules to Cypher, the query and transformation language used by Neo4j.</description>
-    </item>
-    
-    <item>
-      <title>Getting started with eMoflon</title>
-      <link>https://emoflon.org/getting-started/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://emoflon.org/getting-started/</guid>
-      <description>eMoflon::IBeX To get started with eMoflon::IBeX, you can use our tutorial on GitHub together with the pre-built eMoflon::IBeX Eclipse application.
-If you encounter any issues with the tutorial, feel free to open an issue on GitHub.
-eMoflon::Neo To get started with eMoflon::Neo, you can use our tutorials together with the pre-built eMoflon::Neo Eclipse application.</description>
     </item>
     
   </channel>
