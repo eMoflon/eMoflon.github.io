@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Publications</title>
+      <link>https://emoflon.org/publications/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://emoflon.org/publications/</guid>
+      <description>Over the years, eMoflon has been applied in diverse application scenarios and domains. In the following, we provide a collection of relevant publications. If you are using or have used eMoflon in a project, publication, lecture, or similar, please contact us.
+List of Publications 2023 &amp;ldquo;Advanced Consistency Restoration with Higher-Order Short-Cut Rules&amp;rdquo;.
+Lars Fritsche, Jens Kosiol, Adrian Möller, Andy Schürr. 2022 &amp;ldquo;Graph-Based Specification and Automated Construction of ILP Problems&amp;rdquo;.
+Sebastian Ehmes, Maximilian Kratz, Andy Schürr.</description>
+    </item>
+    
+    <item>
       <title>eMoflon::IBeX</title>
       <link>https://emoflon.org/ibex/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
@@ -44,17 +56,6 @@
 If you encounter any issues with the tutorial, feel free to open an issue on GitHub.
 eMoflon::Neo To get started with eMoflon::Neo, you can use our tutorials together with the pre-built eMoflon::Neo Eclipse application. Currently, there are the following tutorials available:
 (Meta-)Modeling with eMoflon::Neo Graph Transformation (GT) with eMoflon::Neo Triple Graph Grammars (TGGs) with eMoflon::Neo </description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://emoflon.org/publications/</link>
-      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://emoflon.org/publications/</guid>
-      <description>Over the years, eMoflon has been applied in diverse application scenarios and domains. In the following, we provide a collection of relevant publications. If you are using or have used eMoflon in a project, publication, lecture, or similar, please contact us.
-List of Publications 2022 &amp;ldquo;Graph-Based Specification and Automated Construction of ILP Problems&amp;rdquo;.
-Sebastian Ehmes, Maximilian Kratz, Andy Schürr. &amp;ldquo;Local Consistency Restoration Methods for Triple Graph Grammars&amp;rdquo;. Lars Fritsche. 2021 &amp;ldquo;eMoflon: : Neo - Consistency and Model Management with Graph Databases&amp;rdquo;.</description>
     </item>
     
     <item>
