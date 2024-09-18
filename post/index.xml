@@ -4,35 +4,30 @@
     <title>Posts on eMoflon Project Site</title>
     <link>https://emoflon.org/post/</link>
     <description>Recent content in Posts on eMoflon Project Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://emoflon.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://emoflon.org/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eMoflon::Neo New tutorials available</title>
       <link>https://emoflon.org/new-neo-tutorials/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://emoflon.org/new-neo-tutorials/</guid>
-      <description>There are three new tutorials to get started with eMoflon::Neo. Check out our getting started page.</description>
+      <description>&lt;p&gt;There are three new tutorials to get started with &lt;strong&gt;eMoflon::Neo&lt;/strong&gt;.&#xA;Check out our &lt;a href=&#34;../getting-started#emoflonneo&#34;&gt;getting started page&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>eMoflon::Neo Eclipse build and VM released</title>
       <link>https://emoflon.org/neo-eclipse-and-vm/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://emoflon.org/neo-eclipse-and-vm/</guid>
-      <description>Now there are two easy ways to get started with eMoflon::Neo: Our new pre-built Eclipse application and the pre-built virtual machine.</description>
+      <description>&lt;p&gt;Now there are two easy ways to get started with &lt;strong&gt;eMoflon::Neo&lt;/strong&gt;:&#xA;Our new &lt;a href=&#34;#pre-built-eclipse-application-neo&#34;&gt;pre-built Eclipse application&lt;/a&gt; and the &lt;a href=&#34;#pre-built-virtual-machine-neo-vm&#34;&gt;pre-built virtual machine&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>New Webpage</title>
       <link>https://emoflon.org/new-webpage/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://emoflon.org/new-webpage/</guid>
-      <description>We launched the new eMoflon webpage today!</description>
+      <description>&lt;p&gt;We launched the new &lt;strong&gt;eMoflon&lt;/strong&gt; webpage today!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

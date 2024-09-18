@@ -4,7 +4,8 @@
     <title>Tags on eMoflon Project Site</title>
     <link>https://emoflon.org/tags/</link>
     <description>Recent content in Tags on eMoflon Project Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://emoflon.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://emoflon.org/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
