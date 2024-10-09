@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://emoflon.org/download/</loc>
+    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://emoflon.org/ibex/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -28,9 +31,6 @@
   </url><url>
     <loc>https://emoflon.org/post/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://emoflon.org/download/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://emoflon.org/neo-eclipse-and-vm/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
